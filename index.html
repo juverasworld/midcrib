@@ -3,41 +3,128 @@
 <html lang="en-US">
 
 <head>
+	<!-- Basic Meta Tags -->
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>MIDCRIB LIMITED </title>
-	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Favicon -->
+	
+	<!-- SEO Meta Tags -->
+	<title>MIDCRIB LIMITED - Innovative IT Solutions & Custom Web Development Company</title>
+	<meta name="description" content="MIDCRIB LIMITED delivers innovative IT solutions, custom websites, and enterprise applications for individuals, startups, and organizations. Expert web development, software solutions, and digital transformation services.">
+	<meta name="keywords" content="IT solutions Nigeria, web development, custom websites, enterprise applications, software development, digital transformation, startup solutions, MIDCRIB LIMITED, technology consulting, web design Nigeria">
+	<meta name="author" content="MIDCRIB LIMITED">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="English">
+	<meta name="geo.region" content="NG">
+	<meta name="geo.placename" content="Nigeria">
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.midcriblimited.com/">
+	<meta property="og:title" content="MIDCRIB LIMITED - Innovative IT Solutions & Custom Web Development">
+	<meta property="og:description" content="Expert IT solutions company delivering custom websites, enterprise applications, and digital transformation services for individuals, startups, and organizations.">
+	<meta property="og:image" content="https://www.midcriblimited.com/assets/images/og-image.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:site_name" content="MIDCRIB LIMITED">
+	<meta property="og:locale" content="en_US">
+	
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:url" content="https://www.midcriblimited.com/">
+	<meta name="twitter:title" content="MIDCRIB LIMITED - Innovative IT Solutions & Web Development">
+	<meta name="twitter:description" content="Expert IT solutions company delivering custom websites, enterprise applications, and digital transformation services.">
+	<meta name="twitter:image" content="https://www.midcriblimited.com/assets/images/twitter-card.jpg">
+	<meta name="twitter:creator" content="@midcriblimited">
+	
+	<!-- Canonical URL -->
+	<link rel="canonical" href="https://www.midcriblimited.com/">
+	
+	<!-- Favicons & Icons -->
 	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/logo.png">
-	<!-- bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
-	<!-- carousel CSS -->
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	
+	<!-- Preconnect to external domains for performance -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+	
+	<!-- DNS Prefetch -->
+	<link rel="dns-prefetch" href="//www.google-analytics.com">
+	<link rel="dns-prefetch" href="//www.googletagmanager.com">
+	
+	<!-- Structured Data - Organization Schema -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"@id": "https://www.midcriblimited.com/#organization",
+		"name": "MIDCRIB LIMITED",
+		"description": "Innovative IT solutions company delivering custom websites, enterprise applications, and digital transformation services for individuals, startups, and organizations",
+		"url": "https://www.midcriblimited.com",
+		"logo": "https://www.midcriblimited.com/assets/images/logo.png",
+		"foundingDate": "2020",
+		"industry": "Information Technology",
+		"knowsAbout": ["Web Development", "Software Development", "Digital Transformation", "Enterprise Applications", "IT Consulting"],
+		"address": {
+			"@type": "PostalAddress",
+			"addressCountry": "Nigeria"
+		},
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"contactType": "customer service",
+			"areaServed": "NG",
+			"availableLanguage": ["English"]
+		},
+		"offers": {
+			"@type": "Service",
+			"serviceType": ["Web Development", "Custom Software Development", "Enterprise Applications", "IT Consulting", "Digital Solutions"]
+		},
+		"sameAs": [
+			"https://www.facebook.com/midcriblimited",
+			"https://www.instagram.com/midcriblimited",
+			"https://www.linkedin.com/company/midcriblimited",
+			"https://twitter.com/midcriblimited"
+		]
+	}
+	</script>
+	
+	<!-- CSS Files - Optimized Loading -->
+	<!-- Critical CSS should be inlined, non-critical should be loaded async -->
+	<link rel="preload" href="assets/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="assets/css/bootstrap.min.css"></noscript>
+	
+	<link rel="preload" href="assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="assets/css/style.css"></noscript>
+	
+	<!-- Non-critical CSS loaded asynchronously -->
 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all">
-	<!-- animate CSS -->
 	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all">
-	<!-- animated-text CSS -->
 	<link rel="stylesheet" href="assets/css/animated-text.css" type="text/css" media="all">
-	<!-- font-awesome CSS -->
 	<link rel="stylesheet" href="assets/css/all.min.css" type="text/css" media="all">
-	<!-- theme-default CSS -->
 	<link rel="stylesheet" href="assets/css/theme-default.css" type="text/css" media="all">
-	<!-- meanmenu CSS -->
 	<link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all">
-	<!-- transitions CSS -->
 	<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all">
-	<!-- venobox CSS -->
 	<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all">
-	<!-- bootstrap icons -->
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css" type="text/css" media="all">
-	<!-- Main Style CSS -->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
-	<!-- responsive CSS -->
 	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
-	<!-- Coustom Animation CSS -->
 	<link rel="stylesheet" href="assets/css/coustom-animation.css" type="text/css" media="all">
-	<!-- odometer CSS -->	
-	<!-- modernizr js -->
+	
+	<!-- Google Analytics (replace with your actual tracking ID) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'GA_MEASUREMENT_ID');
+	</script>
+	
+	<!-- JavaScript -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
 
@@ -157,33 +244,34 @@
 <!-- Start Toptech Hero Area Style One-->
 <!--==================================================-->
 <div class="hero-area style-two d-flex align-items-center">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-8">
-				<div class="hero-content">
-					
-					<h1> Building Digital Solutions that Power the Future  </h1>
-				
-					<p style="color: white;">At MIDCRIB LIMITED, we specialize in delivering innovative IT solutions that help individuals, startups, and organizations thrive in the digital era. From custom websites to enterprise-grade applications, we merge creativity, technology, and strategy to fuel your growth
-				    </p>
-				</div>
-				<div class="hero-button">
-					<a href="contact.html">Get Started<i class="bi bi-arrow-right"></i></a>
-					<a class="button-two" href="about-1.html"> Our Services<i class="bi bi-arrow-right"></i></a>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="hero-right">
-					<div class="hero-thumb">
-						<img src="assets/images/home-2/hero-thumb.png" alt="">
-					</div>
-					<div class="hero-shape">
-						<img src="assets/images/hero-shape.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="hero-content">
+                    <h1 class="fade-in-up delay-1">Building Digital Solutions that Power the Future</h1>
+                    <p class="fade-in-up delay-2" style="color: white;">
+                        At MIDCRIB LIMITED, we specialize in delivering innovative IT solutions that help individuals, 
+                        startups, and organizations thrive in the digital era. From custom websites to enterprise-grade 
+                        applications, we merge creativity, technology, and strategy to fuel your growth
+                    </p>
+                </div>
+                <div class="hero-button fade-in-up delay-3">
+                    <a href="contact.html">Get Started<i class="bi bi-arrow-right"></i></a>
+                    <a class="button-two" href="about-1.html">Our Services<i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="hero-right">
+                    <div class="hero-thumb fade-in-right delay-4">
+                        <img src="assets/images/home-2/hero-thumb.png" alt="">
+                    </div>
+                    <div class="hero-shape fade-in-right delay-5">
+                        <img src="assets/images/hero-shape.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!--==================================================-->
 <!-- End Toptech Hero Area Style One-->
@@ -191,58 +279,61 @@
 <!-- Start Toptech Feature Area Style Two-->
 <!--==================================================-->
 <div class="feature-area style-two">
-	<div class="container">
+    <div class="container">
         <div class="row add-marging">
-        	<div class="col-lg-3 col-md-6">
-        		<div class="single-feature-box">
-        			<div class="feature-icon">
-        				<img src="assets/images/home-2/feature-icon1.png" alt="">
-        			</div>
-        			<div class="feature-content">
-        				<h4>50+ </h4>
-        				<p>Successful Projects Delivered across various industries</p>
-        				<a href="service.html">Read More</a>
-        			</div>
-        		</div>
-        	</div>        	
-        	<div class="col-lg-3 col-md-6">
-        		<div class="single-feature-box">
-        			<div class="feature-icon">
-        				<img src="assets/images/home-2/feature-icon2.png" alt="">
-        			</div>
-        			<div class="feature-content">
-        				<h4>	20+ </h4>
-        				<p>Global Clients Served  spanning Nigeria, UK, USA</p>
-        				<a href="service.html">Read More</a>
-        			</div>
-        		</div>
-        	</div>        	
-        	<div class="col-lg-3 col-md-6">
-        		<div class="single-feature-box">
-        			<div class="feature-icon">
-        				<img src="assets/images/home-2/feature-icon3.png" alt="">
-        			</div>
-        			<div class="feature-content">
-        				<h4>	End-to-End </h4>
-        				<p>Support & Maintenance throughout project lifecycle</p>
-        				<a href="service.html">Read More</a>
-        			</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-3 col-md-6">
-        		<div class="single-feature-box">
-        			<div class="feature-icon">
-        				<img src="assets/images/home-2/feature-icon3.png" alt="">
-        			</div>
-        			<div class="feature-content">
-        				<h4>	100% </h4>
-        				<p>On-Time Delivery Record maintained since inception</p>
-        				<a href="service.html">Read More</a>
-        			</div>
-        		</div>
-        	</div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-feature-box fade-in-scale delay-1">
+                    <div class="feature-icon">
+                        <img src="assets/images/feature-icon1.png" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <h4 class="counter" data-count="50">0+</h4>
+                        <p>Successful Projects Delivered across various industries</p>
+                        <a href="service.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="single-feature-box fade-in-scale delay-2">
+                    <div class="feature-icon">
+                        <img src="assets/images/feature-icon2.png" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <h4 class="counter" data-count="20">0+</h4>
+                        <p>Global Clients Served spanning Nigeria, UK, USA</p>
+                        <a href="service.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="single-feature-box fade-in-scale delay-3">
+                    <div class="feature-icon">
+                        <img src="assets/images/feature-icon3.png" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <h4>End-to-End</h4>
+                        <p>Support & Maintenance throughout project lifecycle</p>
+                        <a href="service.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="single-feature-box fade-in-scale delay-4">
+                    <div class="feature-icon">
+                        <img src="assets/images/feature-icon2.png" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <h4 class="counter" data-count="100">0%</h4>
+                        <p>On-Time Delivery Record maintained since inception</p>
+                        <a href="service.html">Read More</a>
+                    </div>
+                </div>
+            </div>
         </div>
-	</div>
+    </div>
 </div>
 <!--==================================================-->
 <!-- End Toptech Feature Area Style Two-->
@@ -250,257 +341,242 @@
 <!-- Start Toptech About Area Style two-->
 <!--==================================================-->
 <div class="about-area style-two">
-	<div class="container">
-    <div class="row align-items-center">
-        <div class="col-lg-6">
-            <div class="about-left" style=" position: relative;">
-                <div class="about-thumb" style="width: 100%; height: 500px; background: url('assets/images/website-development.jpg') no-repeat center center; background-size: cover; border-radius: 8px;">
-                 
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-left slide-in-left delay-1" style="position: relative;">
+                    <div class="about-thumb" style="width: 100%; height: 500px; background: url('assets/images/website-development.jpg') no-repeat center center; background-size: cover; border-radius: 8px;">
+                    </div>
                 </div>
-              
-                
             </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="about-right">
-                <div class="section-title left style-two">
-                    <h4>About Us </h4>
-                    <h1>Who We Are</h1>
-                    
-                    <p>
-                        MIDCRIB LIMITED is a leading digital solutions provider based in Nigeria, serving clients across the globe. With a team of highly skilled developers, designers, and IT professionals, we transform ideas into world-class digital products
-
-                    </p>
-                    <p>
-                       We don’t just build software — we build long-term partnerships by creating solutions that are scalable, secure, and tailored to your unique needs. Whether you’re an individual seeking a personal website or a corporation in need of enterprise-level systems, MIDCRIB delivers excellence, every time.
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="single-about-icon-box">
-                            <div class="about-icon">
-                                <img src="assets/images/home-2/about-icon1.png" alt="">
-                            </div>
-                            <div class="about-icon-box-content">
-                                <h4>50+ Successful Projects Delivered</h4>
-                            </div>
-                        </div>
-                    </div>						
-                    <div class="col-lg-6 col-md-6">
-                        <div class="single-about-icon-box">
-                            <div class="about-icon">
-                                <img src="assets/images/home-2/about-icon2.png" alt="">
-                            </div>
-                            <div class="about-icon-box-content">
-                                <h4>20+ Global Clients Served</h4>
+            <div class="col-lg-6">
+                <div class="about-right">
+                    <div class="section-title left style-two">
+                        <h4 class="fade-in-up delay-2">About Us</h4>
+                        <h1 class="fade-in-up delay-3">Who We Are</h1>
+                        
+                        <p class="fade-in-up delay-4">
+                            MIDCRIB LIMITED is a leading digital solutions provider based in Nigeria, serving clients across the globe. With a team of highly skilled developers, designers, and IT professionals, we transform ideas into world-class digital products
+                        </p>
+                        <p class="fade-in-up delay-5">
+                           We don't just build software — we build long-term partnerships by creating solutions that are scalable, secure, and tailored to your unique needs. Whether you're an individual seeking a personal website or a corporation in need of enterprise-level systems, MIDCRIB delivers excellence, every time.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-about-icon-box zoom-in delay-6">
+                                <div class="about-icon">
+                                    <img src="assets/images/about-icon1.png" alt="">
+                                </div>
+                                <div class="about-icon-box-content">
+                                    <h4>50+ Successful Projects Delivered</h4>
+                                </div>
                             </div>
                         </div>
-                    </div>						
-                    <div class="col-lg-6 col-md-6">
-                        <div class="single-about-icon-box">
-                            <div class="about-icon">
-                                <img src="assets/images/home-2/about-icon3.png" alt="">
-                            </div>
-                            <div class="about-icon-box-content">
-                                <h4>100% On-Time Delivery Record</h4>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-about-icon-box zoom-in delay-7">
+                                <div class="about-icon">
+                                    <img src="assets/images/about-icon2.png" alt="">
+                                </div>
+                                <div class="about-icon-box-content">
+                                    <h4>20+ Global Clients Served</h4>
+                                </div>
                             </div>
                         </div>
-                    </div>						
-                    <div class="col-lg-6 col-md-6">
-                        <div class="single-about-icon-box">
-                            <div class="about-icon">
-                                <img src="assets/images/home-2/about-icon4.png" alt="">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-about-icon-box zoom-in delay-8">
+                                <div class="about-icon">
+                                    <img src="assets/images/about-icon3.png" alt="">
+                                </div>
+                                <div class="about-icon-box-content">
+                                    <h4>100% On-Time Delivery Record</h4>
+                                </div>
                             </div>
-                            <div class="about-icon-box-content">
-                                <h4>End-to-End Support & Maintenance</h4>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-about-icon-box zoom-in delay-8">
+                                <div class="about-icon">
+                                    <img src="assets/images/about-icon4.png" alt="">
+                                </div>
+                                <div class="about-icon-box-content">
+                                    <h4>End-to-End Support & Maintenance</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="toptech-button style-one">
-                    <a href="about-1.html">About More<i class="bi bi-arrow-right-circle-fill"></i></a>
-                </div>
-                <div class="about-shape-two">
-                    <img src="assets/images/home-2/about-shape2.png" alt="">
+                    <div class="toptech-button style-one fade-in-up delay-8">
+                        <a href="about-1.html">About More<i class="bi bi-arrow-right-circle-fill"></i></a>
+                    </div>
+                    <div class="about-shape-two rotate-fade-in delay-8">
+                        <img src="assets/images/about-shape2.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 <!--==================================================-->
 <!-- End Toptech About Area Style One-->
 
 <!-- Start Toptech Service Area Style Two-->
 <!--==================================================-->
-<div class="service-area style-two">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title center style-two">
-					<h4>Our Services </h4>
-					<h1 >What We Do Best</h1>
-					<h4>We provide a full suite of IT services tailored to individuals and organizations.
-</h4>
-
-					<!-- <h1>IT Services Source</h1> -->
-			    </div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-1.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>01</h1>
-					</div>
-					<div class="service-content">
-						<h4>Custom Website Development </h4>
-						<p> Responsive, SEO-optimized websites that reflect your brand identity.
-</p>
-						<a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-2.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>02</h1>
-					</div>
-					<div class="service-content">
-						<h4>Mobile App Development </h4>
-						<p>
-	 Intuitive Android and iOS apps designed to engage users.
-                            
-                        </p>
-						<a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-3.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>03</h1>
-					</div>
-					<div class="service-content">
-						<h4>E-commerce Solutions </h4>
-						<p>
-	 Secure and scalable online stores with seamless payment integration.
-
-                        </p>
-						<a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-4.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>04</h1>
-					</div>
-					<div class="service-content">
-						<h4>Enterprise Software Development </h4>
-						<p>
-	 CRM, ERP, and workflow automation tools for business efficiency.
-
-                        </p>
-						<a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-5.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>05</h1>
-					</div>
-					<div class="service-content">
-						<h4>API Integration & Automation </h4>
-						<p>
-	 Connect your systems for smarter, faster processes and automations.
-                            
-                        </p>
-						<a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-6.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>06</h1>
-					</div>
-					<div class="service-content">
-						<h4>Maintenance & Support </h4>
-						<p>
-	Reliable updates, security, and ongoing technical care.
-                            
-                        </p>
-						<a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="service-area style-two" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-title center style-two">
+                    <h4 class="fade-in-down delay-1">Our Services</h4>
+                    <h1 class="fade-in-down delay-2">What We Do Best</h1>
+                    <h4 class="fade-in-down delay-3">We provide a full suite of IT services tailored to individuals and organizations.</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-box slide-up-bounce delay-4">
+                    <div class="service-icon-thumb">
+                        <img src="assets/images/home-2/service-1.png" alt="">
+                    </div>
+                    <div class="service-number">
+                        <h1>01</h1>
+                    </div>
+                    <div class="service-content">
+                        <h4>Custom Website Development</h4>
+                        <p>Responsive, SEO-optimized websites that reflect your brand identity.</p>
+                        <a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-box slide-up-bounce delay-5">
+                    <div class="service-icon-thumb">
+                        <img src="assets/images/home-2/service-2.png" alt="">
+                    </div>
+                    <div class="service-number">
+                        <h1>02</h1>
+                    </div>
+                    <div class="service-content">
+                        <h4>Mobile App Development</h4>
+                        <p>Intuitive Android and iOS apps designed to engage users.</p>
+                        <a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-box slide-up-bounce delay-6">
+                    <div class="service-icon-thumb">
+                        <img src="assets/images/home-2/service-3.png" alt="">
+                    </div>
+                    <div class="service-number">
+                        <h1>03</h1>
+                    </div>
+                    <div class="service-content">
+                        <h4>E-commerce Solutions</h4>
+                        <p>Secure and scalable online stores with seamless payment integration.</p>
+                        <a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-box slide-up-bounce delay-7">
+                    <div class="service-icon-thumb">
+                        <img src="assets/images/home-2/service-4.png" alt="">
+                    </div>
+                    <div class="service-number">
+                        <h1>04</h1>
+                    </div>
+                    <div class="service-content">
+                        <h4>Enterprise Software Development</h4>
+                        <p>CRM, ERP, and workflow automation tools for business efficiency.</p>
+                        <a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-box slide-up-bounce delay-8">
+                    <div class="service-icon-thumb">
+                        <img src="assets/images/home-2/service-5.png" alt="">
+                    </div>
+                    <div class="service-number">
+                        <h1>05</h1>
+                    </div>
+                    <div class="service-content">
+                        <h4>API Integration & Automation</h4>
+                        <p>Connect your systems for smarter, faster processes and automations.</p>
+                        <a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="single-services-box slide-up-bounce delay-9">
+                    <div class="service-icon-thumb">
+                        <img src="assets/images/home-2/service-6.png" alt="">
+                    </div>
+                    <div class="service-number">
+                        <h1>06</h1>
+                    </div>
+                    <div class="service-content">
+                        <h4>Maintenance & Support</h4>
+                        <p>Reliable updates, security, and ongoing technical care.</p>
+                        <a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Start Toptech Counter Area Home two-->
 <!--==================================================-->
-<div class="counter-area style-two">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-box">
-					<div class="counter-content">
-						<h4 class="counterup">50</h4>
-						<span>K+</span>
-						<p>Successful Projects Delievered</p>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-box">
-					<div class="counter-content">
-						<h4 class="counterup">20</h4>
-						<span>+</span>
-						<p>Global clients Served</p>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-box">
-					<div class="counter-content">
-						<h4>100</h4>
-						<span>%</span>
-						<p>On-Time Delivery Record</p>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-box">
-					<div class="counter-content">
-						<h4>100</h4>
-						<span>%</span>
-						<p>End-to-End Support & Maintenance</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="counter-area style-two" style="color: black;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box counter-slide-up delay-1">
+                    <div class="counter-content">
+                        <h4 class="counter-number counterup" data-count="50">0</h4>
+                        <span class="counter-symbol">K+</span>
+                        <p class="text-fade-in delay-1">Successful Projects Delivered</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box counter-slide-up delay-2">
+                    <div class="counter-content">
+                        <h4 class="counter-number counterup" data-count="20">0</h4>
+                        <span class="counter-symbol">+</span>
+                        <p class="text-fade-in delay-2">Global Clients Served</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box counter-slide-up delay-3">
+                    <div class="counter-content">
+                        <h4 class="counter-number counterup" data-count="100">0</h4>
+                        <span class="counter-symbol">%</span>
+                        <p class="text-fade-in delay-3">On-Time Delivery Record</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box counter-slide-up delay-4">
+                    <div class="counter-content">
+                        <h4 class="counter-number counterup" data-count="100">0</h4>
+                        <span class="counter-symbol">%</span>
+                        <p class="text-fade-in delay-4">End-to-End Support & Maintenance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Start Toptech Portfolio Area  Style Two-->
@@ -704,115 +780,7 @@
 <!--==================================================-->
 <!-- Start Toptech Testimonial Area Style One-->
 <!--==================================================-->
-<div class="testimonial-area style-one">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title center style-two">
-        			<h4>Testimonial</h4>
-        			<h1>Customer’s Awesome Feedback</h1>
-        			<h1>About Our Services</h1>
-        		</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="testi-list-1 owl-carousel">
-			   <div class="col-lg-12 text-center">
-					<div class="single-testimonial-box">
-						<div class="testi-desc">
-							<p>Completely extend leveraged customer service rather than performance based imperatives.
-	                         magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches
-	                         technology. Enthusiastically e-enable global e-markets for cooperative e-business. 
-	                         Authoritatively deliver highly efficient expertise</p>
-						</div>
-						<div class="testi-rating">
-							<ul>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-							</ul>
-						</div>
-						<div class="testi-author">
-							<h4>Venkatesh Iyer</h4>
-							<p>UI Designer</p>
-						</div>
-					</div>
-			   </div>			   
-			   <div class="col-lg-12 text-center">
-					<div class="single-testimonial-box">
-						<div class="testi-desc">
-							<p>Completely extend leveraged customer service rather than performance based imperatives.
-	                         magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches
-	                         technology. Enthusiastically e-enable global e-markets for cooperative e-business. 
-	                         Authoritatively deliver highly efficient expertise</p>
-						</div>
-						<div class="testi-rating">
-							<ul>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-							</ul>
-						</div>
-						<div class="testi-author">
-							<h4>John D. Alexon</h4>
-							<p>UI Designer</p>
-						</div>
-					</div>
-			   </div>			   
-			   <div class="col-lg-12 text-center">
-					<div class="single-testimonial-box">
-						<div class="testi-desc">
-							<p>Completely extend leveraged customer service rather than performance based imperatives.
-	                         magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches
-	                         technology. Enthusiastically e-enable global e-markets for cooperative e-business. 
-	                         Authoritatively deliver highly efficient expertise</p>
-						</div>
-						<div class="testi-rating">
-							<ul>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-							</ul>
-						</div>
-						<div class="testi-author">
-							<h4>Alex Brock </h4>
-							<p>UI Designer</p>
-						</div>
-					</div>
-			   </div>			   
-			   <div class="col-lg-12 text-center">
-					<div class="single-testimonial-box">
-						<div class="testi-desc">
-							<p>Completely extend leveraged customer service rather than performance based imperatives.
-	                         magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches
-	                         technology. Enthusiastically e-enable global e-markets for cooperative e-business. 
-	                         Authoritatively deliver highly efficient expertise</p>
-						</div>
-						<div class="testi-rating">
-							<ul>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-							</ul>
-						</div>
-						<div class="testi-author">
-							<h4>Abhishek Sharma</h4>
-							<p>UI Designer</p>
-						</div>
-					</div>
-			   </div>
-			</div>
-		</div>
-	</div>
-</div>
+
 <!--==================================================-->
 <!-- End Toptech Testimonial Area Style One-->
 <!--==================================================-->
@@ -1282,6 +1250,81 @@
 	<script src="assets/js/coustom-carousel.js"></script>
 	<script src="assets/js/scroll-up.js"></script>
     
+<script>
+// Intersection Observer for scroll animations
+const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('animate');
+            
+            // Trigger counter animation if element has counter (existing logic)
+            const counter = entry.target.querySelector('.counter[data-count]');
+            if (counter && !counter.classList.contains('counted')) {
+                counter.classList.add('counted');
+                animateCounter(counter);
+            }
+            
+            // Trigger counter animation for counterup elements (new logic)
+            const counterElement = entry.target.querySelector('.counterup[data-count]');
+            if (counterElement && !counterElement.classList.contains('counted')) {
+                counterElement.classList.add('counted');
+                animateCounterUp(counterElement);
+            }
+        }
+    });
+}, observerOptions);
+
+// Original counter animation function
+function animateCounter(element) {
+    const target = parseInt(element.getAttribute('data-count'));
+    const increment = target / 50;
+    let current = 0;
+    
+    const timer = setInterval(() => {
+        current += increment;
+        if (current >= target) {
+            current = target;
+            clearInterval(timer);
+        }
+        
+        if (element.textContent.includes('%')) {
+            element.textContent = Math.floor(current) + '%';
+        } else {
+            element.textContent = Math.floor(current) + '+';
+        }
+    }, 30);
+}
+
+// Enhanced counter animation function for counterup
+function animateCounterUp(element) {
+    const target = parseInt(element.getAttribute('data-count'));
+    const duration = 2000; // 2 seconds
+    const increment = target / (duration / 16); // 60fps
+    let current = 0;
+    
+    const timer = setInterval(() => {
+        current += increment;
+        if (current >= target) {
+            current = target;
+            clearInterval(timer);
+            // Add pulse effect when animation completes
+            element.style.animation = 'pulse-glow 2s ease-in-out infinite';
+        }
+        element.textContent = Math.floor(current);
+    }, 16);
+}
+
+// Observe all elements with animation classes
+document.addEventListener('DOMContentLoaded', () => {
+    const animatedElements = document.querySelectorAll('.fade-in-up, .fade-in-left, .fade-in-right, .fade-in, .fade-in-scale, .slide-in-left, .slide-in-right, .zoom-in, .rotate-fade-in, .fade-in-down, .slide-up-bounce, .counter-slide-up, .text-fade-in');
+    animatedElements.forEach(el => observer.observe(el));
+});
+</script>
 
 </body>
 </html>

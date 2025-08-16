@@ -44,7 +44,40 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 =======================*/
 
+/* Smooth scrolling for the entire page */
+html {
+    scroll-behavior: smooth;
+}
 
+/* Animation classes */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+}
+
+.fade-in-up.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-in-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.8s ease-out;
+}
+
+.fade-in-right.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Staggered animation delays */
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+.delay-5 { transition-delay: 0.5s; }
 
 
 /*---=====================================================
@@ -205,7 +238,117 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     animation: 500ms running fadeInUp;
     animation-name: slideInDown;
 }
+/* Feature animation styles */
+.fade-in-scale {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+    transition: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
 
+.fade-in-scale.animate {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Staggered delays for feature cards */
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+
+/* Enhanced hover effects */
+.single-feature-box {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.single-feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.feature-icon img {
+    transition: transform 0.3s ease;
+}
+
+.single-feature-box:hover .feature-icon img {
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* Counter animation styles */
+.counter {
+    font-weight: bold;
+}
+/* About section animation styles */
+.slide-in-left {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.slide-in-left.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.slide-in-right {
+    opacity: 0;
+    transform: translateX(60px);
+    transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.slide-in-right.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.zoom-in {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.6s ease-out;
+}
+
+.zoom-in.animate {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.rotate-fade-in {
+    opacity: 0;
+    transform: rotate(-10deg) scale(0.9);
+    transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.rotate-fade-in.animate {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+}
+
+/* Extended delays for about section */
+.delay-6 { transition-delay: 0.6s; }
+.delay-7 { transition-delay: 0.7s; }
+.delay-8 { transition-delay: 0.8s; }
+
+/* Enhanced hover effects for about boxes */
+.single-about-icon-box {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.single-about-icon-box:hover {
+    transform: translateY(-5px);
+    background: rgba(102, 126, 234, 0.1);
+}
+
+.about-icon img {
+    transition: transform 0.3s ease;
+}
+
+.single-about-icon-box:hover .about-icon img {
+    transform: scale(1.1) rotate(10deg);
+}
 /*---=====================================================
    <!--Toptech Hero Area Css Style One-->
 =========================================================---*/
@@ -2011,7 +2154,8 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     position: absolute;
     bottom: 0;
     left: 239px;
-    animation: bounceleft 4s linear infinite;
+    animation: bounceleftdramatic 4s linear infinite;
+    /* animation: bounceleft 4s linear infinite; */
 }
 
 
@@ -3323,11 +3467,101 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     position: absolute;
     bottom: 24px;
     left: 44%;
-    animation: bounceleft 4s linear infinite;
+    animation: bounce-left-dramatic 4s linear infinite;
 }
 
 
+/* Bounce Left Animation Keyframes */
+@keyframes bounceleft {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-15px);
+    }
+    40% {
+        transform: translateX(0);
+    }
+    60% {
+        transform: translateX(-8px);
+    }
+    80% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
 
+/* Alternative smoother version */
+@keyframes bounceleftsmooth {
+    0%, 20%, 53%, 80%, 100% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(-15px);
+    }
+    70% {
+        transform: translateX(-8px);
+    }
+}
+
+/* More dramatic bounce version */
+@keyframes bounceleftdramatic {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-25px);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    75% {
+        transform: translateX(-12px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Usage examples */
+.bounce-left {
+    animation: bounceleft 4s linear infinite;
+}
+
+.bounce-left-smooth {
+    animation: bounceleftsmooth 4s ease-in-out infinite;
+}
+
+.bounce-left-dramatic {
+    animation: bounceleftdramatic 4s ease-in-out infinite;
+}
+
+/* You can also add transform-origin for different effects */
+.bounce-left-center {
+    animation: bounceleft 4s linear infinite;
+    transform-origin: center;
+}
+
+/* Pause on hover */
+.bounce-left:hover {
+    animation-play-state: paused;
+}
+
+/* Different timing variations */
+.bounce-left-fast {
+    animation: bounceleft 2s linear infinite;
+}
+
+.bounce-left-slow {
+    animation: bounceleft 6s linear infinite;
+}
+
+/* With easing for more natural movement */
+.bounce-left-natural {
+    animation: bounceleft 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
 /*---=====================================================
    <!--Toptech Service Area Home theree Css-->
 =========================================================---*/
@@ -4081,8 +4315,201 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     background: #fff;
     color: #0c5adb;
 }
+/* Services section animation styles */
+.fade-in-down {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
 
+.fade-in-down.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
 
+.slide-up-bounce {
+    opacity: 0;
+    transform: translateY(60px) scale(0.95);
+    transition: all 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.slide-up-bounce.animate {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Extended delay classes */
+.delay-9 { transition-delay: 0.9s; }
+
+/* Enhanced service card hover effects */
+.single-services-box {
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.single-services-box:hover {
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.single-services-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.single-services-box:hover::before {
+    transform: scaleX(1);
+}
+
+.service-icon-thumb img {
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.single-services-box:hover .service-icon-thumb img {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.service-number h1 {
+    transition: all 0.3s ease;
+}
+
+.single-services-box:hover .service-number h1 {
+    transform: scale(1.2);
+}
+
+.service-content a {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-content a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transition: width 0.3s ease;
+}
+
+.single-services-box:hover .service-content a::before {
+    width: 100%;
+}
+/* Counter section animation styles */
+.counter-slide-up {
+    opacity: 0;
+    transform: translateY(50px) scale(0.9);
+    transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.counter-slide-up.animate {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.text-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-out;
+}
+
+.text-fade-in.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Counter styling enhancements */
+.counter-number {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: all 0.3s ease;
+}
+
+.counter-symbol {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #667eea;
+    margin-left: 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+/* Enhanced counter box hover effects */
+.counter-box {
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    border-radius: 15px;
+    padding: 40px 20px;
+    text-align: center;
+    /* background: white; */
+    /* box-shadow: 0 5px 20px rgba(0,0,0,0.08); */
+    position: relative;
+    overflow: hidden;
+}
+
+.counter-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.counter-box:hover::before {
+    opacity: 1;
+}
+
+.counter-box:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.counter-box:hover .counter-number {
+    transform: scale(1.1);
+    filter: drop-shadow(0 2px 8px rgba(102, 126, 234, 0.3));
+}
+
+.counter-box:hover .counter-symbol {
+    transform: scale(1.2) rotate(10deg);
+    color: #764ba2;
+}
+
+/* Pulse glow animation */
+@keyframes pulse-glow {
+    0% { 
+        transform: scale(1);
+        filter: drop-shadow(0 0 0 rgba(102, 126, 234, 0));
+    }
+    50% { 
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 20px rgba(102, 126, 234, 0.3));
+    }
+    100% { 
+        transform: scale(1);
+        filter: drop-shadow(0 0 0 rgba(102, 126, 234, 0));
+    }
+}
 /*---=====================================================
    <!--Toptech Breadcumb Area Css-->
 =========================================================---*/
