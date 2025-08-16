@@ -1365,7 +1365,9 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 =========================================================---*/
 
 .style-one.footer-area {
-    background: url(../images/home-1/footer-bg.jpg);
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        #021533;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1744,7 +1746,24 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     left: -48px;
     top: 70px;
 }
+@keyframes rotateme {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
+/* Webkit version for older browsers */
+@-webkit-keyframes rotateme {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
 .style-two .hero-shape {
     position: absolute;
     top: 28%;
@@ -2315,7 +2334,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
    <!--Toptech Counter Area Css Style Two-->
 =========================================================---*/
 .style-two.counter-area {
-    background: url(../images/home-2/counter-bg.jpg);
+    background: url(../images/feature-box-shape.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -2478,6 +2497,10 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 =========================================================---*/
 .style-two.working-proces-area {
     background: #021533;
+    
+      /* background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        #021533; */
     padding: 247px 0 90px;
     margin-top: -163px;
 }
@@ -2591,7 +2614,10 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 =========================================================---*/
 .style-two.video-area {
     padding: 141px 0 159px;
-    background: url(../images/home-2/video-bg.jpg);
+      background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/view-male-engineer-work-engineers-day-celebration.jpg);
+    /* background: url(../images/view-male-engineer-work-engineers-day-celebration.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -2640,7 +2666,8 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
    <!--Toptech Contact info Area Css Home Two-->
 =========================================================---*/
 .style-two.contact-info-area {
-    background: url(../images/home-2/contact-info-bg.png);
+    background:  linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
+        grey;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -2729,7 +2756,10 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
    <!--Toptech Pricing Area Css Home Two-->
 =========================================================---*/
 .style-two.pricing-area {
-    background: url(../images/home-2/pricing-bg.jpg);
+    /* background: url(../images/);#0B5ADB */
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        #0B5ADB;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 139px 0 80px;
@@ -3989,7 +4019,9 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 
 .style-one.footer-area.style-three {
-    background: url(../images/home-1/footer-bg.jpg);
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        #021533;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -7414,7 +7446,7 @@ span.flaticon-multiply i {
     margin-left: -33px;
 }
 
-.service-area.style-foure .service-icon::before {
+/* .service-area.style-foure .service-icon::before {
     position: absolute;
     content: "";
     height: 75%;
@@ -7429,6 +7461,26 @@ span.flaticon-multiply i {
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+} */
+ .service-area.style-foure .service-icon::before {
+    position: absolute;
+    content: "";
+    height: 75%;
+    width: 75%;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    left: 11px;
+    top: 11px;
+    /* Standard properties (required) */
+    animation-name: rotateme;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* Webkit prefixes for older browsers */
+    -webkit-animation-name: rotateme;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
 }
 
 .service-area.style-foure .service-icon-two {
@@ -7777,10 +7829,18 @@ span.flaticon-multiply i {
     border-radius: 50%;
     -webkit-animation-name: rotateme;
     -webkit-animation-duration: 15s;
+
+     animation-name: rotateme;
+    animation-duration: 15s;
+    
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
+
+
+
+   
 }
 
 .work-area.style-foure .work-content {
