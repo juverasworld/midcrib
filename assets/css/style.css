@@ -859,7 +859,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     margin: 0;
     padding: 16px 25px 15px 36px;
     font-weight: 700;
-    font-size: 18px;
+    /* font-size: 16px; */
     border-radius: 5px;
     z-index: 2;
     transition: 0.5s;
@@ -885,7 +885,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .faq-singular.active .faq-question:before {
     content:"-";
-    font-size: 30px;
+    font-size: 23px;
 }
 
 .faq-question img {
@@ -2813,7 +2813,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     right: 0;
     top: 33%;
     transform: translateY(-50%);
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 400;
     transition: 0.5s;
     color: #ffff;
@@ -2821,7 +2821,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .style-two .faq-singular.active .faq-question:before {
     content: "-";
-    font-size: 30px;
+    font-size: 23px;
     top: 32px;
     right: 16px;
 }
@@ -4951,7 +4951,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .inner-style .faq-singular.active .faq-question:before {
     content: "-";
-    font-size: 30px;
+    font-size: 23px;
     color: #fff;
 }
 
