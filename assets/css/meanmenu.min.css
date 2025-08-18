@@ -132,3 +132,18 @@ a.meanmenu-reveal{display:none}
     top: 18px;
 }
 
+
+
+.mean-container .mean-bar::before {
+    content: ""; /* Empty content to clear the text */
+    background-image: url('/assets/images/logo.png'); /* Replace with your image path */
+    background-size: contain; /* Scales image to fit while preserving aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px; /* Adjust to desired width */
+    height: 30px; /* Adjust to desired height */
+    left: 10px;
+    position: absolute;
+    top: 18px;
+    display: block; /* Ensures the pseudo-element renders as a block */
+}
