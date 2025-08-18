@@ -1,48 +1,4 @@
 
-/*==============================================
-Template Name: Toptech - Toptech It Solutions HTML5 Template 
-Author:  https://themeforest.net/user/dreamit-solution
-Description: Description
-Version: 1.0.0
-Text Domain: Toptech
-Tags: consulting, finance, corporate, business, consultant, multipurpose, technology, it-solution, software, agency, company, portfolio, bangking, insurance, digital-agency, digital-marketing.
-================================================*/
-
-/*TABLE OF CONTENTS*/
-/*=====================
-01. Toptech Header Area Css
-02. Toptech Top header Area Css 
-03. Toptech Hero Area Css
-04. Toptech About Area Css
-05. Toptech Feature Area Css 
-05. Toptech Service Area Css
-06. Toptech Services Details Area
-07. Toptech Faqs Area Css
-08. Toptech Work Process Area Css
-09. Toptech Portfolio Area Css
-10. Toptech Project Area Css
-10. Toptech Project Details Css
-11. Toptech Team Area Css
-12. Toptech Testimonial Area Css
-13. Toptech Brand Area Css
-14. Toptech Blog Area Css
-15. Toptech Blog Gird Area
-16. Toptech Blog Details Area
-17. Toptech Counter Area Css
-18. Toptech Footer Area Css
-19. Toptech Loader
-20. Toptech Scroll Up Css
-21. Toptech Search Popup css
-22. Toptech Top Menu
-23. Toptech Careers Area Css
-24. Toptech section-title css
-25. Toptech Contact Area
-26. Toptech Location Area Css
-27. Toptech Mission Area Css
-28. Toptech Choose US Area Css
-29. Toptech Team Details Area Css
-
-=======================*/
 
 /* Smooth scrolling for the entire page */
 html {
@@ -343,9 +299,7 @@ html {
 .delay-5 { transition-delay: 0.5s; }
 
 
-/*---=====================================================
-   <!--Toptech Header Area Css Style One-->
-=========================================================---*/
+
 .header-area {
     margin-bottom: -106px;
 }
@@ -612,9 +566,7 @@ html {
 .single-about-icon-box:hover .about-icon img {
     transform: scale(1.1) rotate(10deg);
 }
-/*---=====================================================
-   <!--Toptech Hero Area Css Style One-->
-=========================================================---*/
+
 .style-one.hero-area {
     background: url(../images/future-visions-business-technology-concept.jpg);
     background-repeat: no-repeat;
@@ -682,9 +634,7 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Feature Area Css Style One-->
-=========================================================---*/
+
 .style-one.feature-area {
     padding: 0px 0 137px;
 }
@@ -792,9 +742,7 @@ html {
 } 
 
 
-/*---=====================================================
-   <!--Toptech About Area Css Style One-->
-=========================================================---*/
+
 
 .style-one.about-area {
     padding: 111px 0 115px;
@@ -915,7 +863,7 @@ html {
     margin: 20px 0 0;
 }
 
-/*toptech-button*/
+
 .style-one.toptech-button a {
     padding: 12px 27px 12px 27px;
     font-family: 'Rajdhani';
@@ -971,9 +919,7 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech Service Area Css Style One-->
-=========================================================---*/
+
 .style-one.service-area {
     background: url(../images/home-1/service-bg.jpg);
     background-repeat: no-repeat;
@@ -1073,9 +1019,6 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech Work Process Area Css Style One-->
-=========================================================---*/
 .style-one.work-process-area {
     padding: 108px 0 89px;
 }
@@ -1172,9 +1115,7 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Faqs Area Css Style One-->
-=========================================================---*/
+
 .style-one.faqs-area {
     padding: 0 0 100px;
 }
@@ -1304,9 +1245,7 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Portfolio Area Css Style One-->
-=========================================================---*/
+
 
 .style-one.portfolio-area {
     padding: 8px 0 100px;
@@ -1398,9 +1337,7 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech Team Area Css Style One-->
-=========================================================---*/
+
 
 .style-one.team-area {
     padding: 10px 0 121px;
@@ -1497,9 +1434,7 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Testimonial Area Css Style One-->
-=========================================================---*/
+
 .style-one.testimonial-area {
     background: url(../images/home-1/testi-bg.jpg);
     background-repeat: no-repeat;
@@ -1650,9 +1585,7 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech Blog Area Css Style One-->
-=========================================================---*/
+
 .style-one.blog-area {
     padding: 107px 0 100px;
 }
@@ -1766,9 +1699,6 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Footer Area Css Style One-->
-=========================================================---*/
 
 .style-one.footer-area {
     background: 
@@ -1889,11 +1819,7 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech Home Two All Css-->
-=========================================================---*/
 
-/*Toptech Top header Area Css Style two*/
 
 .top-header-area {
     background: #00194c;
@@ -1962,7 +1888,6 @@ html {
 }
 
 
-/*Toptech header Are Style two*/
 
 .header-area.style-two {
     margin-bottom: 0;
@@ -2037,19 +1962,6 @@ html {
     animation-name: slideInDown;
 }
 
-/*---=====================================================
-   <!--Toptech hero Area Home Two All Css-->
-=========================================================---*/
-/* .style-two.hero-area {
-    background: url(../images/future-visions-business-technology-concept.jpg);
-           
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 800px;
-    overflow: hidden;
-    padding-bottom: 80px;
-} */
 .style-two.hero-area {
     background: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -2178,9 +2090,6 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Feature area Home Two Css-->
-=========================================================---*/
 
 .style-two.feature-area {
     padding: 22px 0 0;
@@ -2305,9 +2214,6 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech About Area Home two Css-->
-=========================================================---*/
 .style-two.about-area {
     background: #F3F7FD;
     padding: 380px 0 126px;
@@ -2453,9 +2359,7 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech Service Area Home two Css-->
-=========================================================---*/
+
 .style-two.service-area {
     /* background: url(../images/7076397.jpg); */
       background: 
@@ -2595,9 +2499,7 @@ html {
     position: relative;
 }
 
-/*---=====================================================
-   <!--Toptech Team Area Css Home Two-->
-=========================================================---*/
+
 .style-two.team-area {
     background: url(../images/team/team-bg.jpg);
     background-repeat: no-repeat;
@@ -2737,9 +2639,7 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Counter Area Css Style Two-->
-=========================================================---*/
+
 .style-two.counter-area {
     background: url(../images/feature-box-shape.png);
     background-repeat: no-repeat;
@@ -2772,9 +2672,7 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech Portfolio Area Css Home Two-->
-=========================================================---*/
+
 .style-two.portfolio-area {
     background: url(../images/home-2/portfolio-bg.jpg);
     background-repeat: no-repeat;
@@ -2898,10 +2796,6 @@ html {
 }
 
 
-
-/*---=====================================================
-   <!--Toptech Portfolio Area Css Home Two-->
-=========================================================---*/
 .style-two.working-proces-area {
     background: #021533;
     
@@ -3016,9 +2910,7 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Video Area Css Home Two-->
-=========================================================---*/
+
 .style-two.video-area {
     padding: 141px 0 159px;
       background: 
@@ -3069,9 +2961,7 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Contact info Area Css Home Two-->
-=========================================================---*/
+
 .style-two.contact-info-area {
     background:  linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.5)),
         grey;
@@ -3159,9 +3049,7 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Pricing Area Css Home Two-->
-=========================================================---*/
+
 .style-two.pricing-area {
     /* background: url(../images/);#0B5ADB */
     background: 
@@ -3373,9 +3261,7 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech Blog Area Css Home Two-->
-=========================================================---*/
+
 .style-one.blog-area.home-two {
     background: #F3F8FC;
     padding: 117px 0 105px;
@@ -3393,9 +3279,7 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech Brand Area Css Inner Style One-->
-=========================================================---*/
+
 .style-two.brand-area {
     background: url(../images/home-2/brand-bg.jpg);
     background-repeat: no-repeat;
@@ -3415,9 +3299,7 @@ html {
     display: inline-block;
 }
 
-/*---=====================================================
-   <!--Toptech Home Theree All Css-->
-=========================================================---*/
+
 
 
 .style-three.hero-area {
@@ -3532,9 +3414,7 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Feature Area Home Threee Css-->
-=========================================================---*/
+
 .style-three.background-images-area {
      background: 
            linear-gradient(to right, rgba(0, 0, 255, 0.9), rgba(0, 0, 255, 0.1)),
@@ -3547,9 +3427,7 @@ html {
     position: relative;
 }
 
-/*---=====================================================
-   <!--Toptech Feature Area Css Inner Style One-->
-=========================================================---*/
+
 
 .style-three .row.margin-top {
     margin-top: -133px;
@@ -3619,9 +3497,7 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech About Area Home theree Css-->
-=========================================================---*/
+
 
 .style-three.about-area {
     padding: 90px 0 121px;
@@ -3828,9 +3704,7 @@ html {
 .bounce-left-natural {
     animation: bounceleft 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
 }
-/*---=====================================================
-   <!--Toptech Service Area Home theree Css-->
-=========================================================---*/
+
 .style-three.service-area {
     background: #F3F8FC;
     padding: 119px 0 100px;
@@ -3878,9 +3752,7 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech Counter Area Home Threee Css-->
-=========================================================---*/
+
 .style-three .row.add-bg {
     /* background: url(../images/home-3/counter-bg.png); */
       background: 
@@ -3938,9 +3810,7 @@ html {
     margin: 0 0 0;
 }
 
-/*---=====================================================
-   <!--Toptech Portfoli Area Home Threee Css-->
-=========================================================---*/
+
 .style-three.portfolio-area {
     background: #00004A;
     padding: 118px 0 97px;
@@ -4017,9 +3887,7 @@ html {
     opacity: 1;
 }
 
-/*---=====================================================
-   <!--Toptech Teastimonial Area Css Style Threee-->
-=========================================================---*/
+
 .style-three.teastimonial-area {
     background: #F3F8FC;
     padding: 120px 0 88px;
@@ -4070,9 +3938,6 @@ html {
 
 
 
-/*---=====================================================
-   <!--Toptech Contact Info Area Css Style Threee-->
-=========================================================---*/
 
 .style-three.contact-area-info {
     background: url(../images/home-3/contact-bg.jpg);
@@ -4122,9 +3987,7 @@ html {
     animation: dance 2s linear infinite;
 }
 
-/*---=====================================================
-   <!--Toptech Choose Us Area Css Style Three-->
-=========================================================---*/
+
 .style-three .choose-us-area {
     background: #f3f8fd;
     padding: 116px 0 126px;
@@ -4285,9 +4148,7 @@ html {
     color:#0c5adb;
 }
 
-/*---=====================================================
-   <!--Toptech Subscribe Area Css Style Three-->
-=========================================================---*/
+
 .style-three.subscribe-area {
     background: url(../images/home-3/subscribe-bg.jpg);
     background-repeat: no-repeat;
@@ -4333,9 +4194,7 @@ html {
 }
 
 
-/*---=====================================================
-   <!--Toptech Process Area Css style-three-->
-=========================================================---*/
+
 .process-area.style-three {
     padding: 0 0 120px;
 }
@@ -4392,9 +4251,7 @@ html {
     margin-top: -239px;
 }
 
-/*---=====================================================
-   <!--Toptech Contact Area Css Style Three-->
-=========================================================---*/
+
 .style-three .add-white-bg {
     padding: 39px 37px 38px;
     border-radius: 10px;
@@ -4532,9 +4389,7 @@ html {
     padding: 435px 0 32px;
 }
 
-/*---=====================================================
-   <!--Toptech Header Area Css-->
-=========================================================---*/
+
 .header-area.inner-style {
     position: relative;
     z-index: 1;
@@ -4780,9 +4635,7 @@ html {
         filter: drop-shadow(0 0 0 rgba(102, 126, 234, 0));
     }
 }
-/*---=====================================================
-   <!--Toptech Breadcumb Area Css-->
-=========================================================---*/
+
 .breadcumb-area {
       /* background: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -4831,9 +4684,7 @@ background:
     cursor: pointer;
 }
 
-/*---=====================================================
-   <!--Toptech Images Area Css Inner Style One-->
-=========================================================---*/
+
 .inner-style-one.images-area {
     background: url(../images/about-inner/about-images-bg.png);
     background-repeat: no-repeat;
@@ -4851,9 +4702,6 @@ background:
 
 
 
-/*---=====================================================
-   <!--Toptech About Area Css Inner Style One-->
-=========================================================---*/
 .inner-style-one.about-area {
     background: url(../images/about-inner/about-bg.jpg);
     background-position: center;
@@ -5111,9 +4959,7 @@ background:
 
 
 
-/*---=====================================================
-   <!--Toptech Testimonial Area Css Inner Style One-->
-=========================================================---*/
+
 .inner-style-one.testimonial-area {
     background: url(../images/about-inner/testi-bg.jpg);
     background-repeat: no-repeat;
@@ -5256,9 +5102,7 @@ background:
 
 
 
-/*---=====================================================
-   <!--Toptech About Area Css Inner Style Two-->
-=========================================================---*/
+
 
 .inner-style-two.about-area {
     background: url(../images/about-inner/about-bg.jpg);
@@ -5371,9 +5215,7 @@ background:
 
 
 
-/*---=====================================================
-   <!--Toptech Service Area Css Inner Style-->
-=========================================================---*/
+
 .inner-style.service-area {
     padding: 121px 0 60px;
     background: #F3F7FD;
@@ -5460,9 +5302,7 @@ background:
 
 
 
-/*---=====================================================
-   <!--Toptech Pricing Area Css Inner Style-->
-=========================================================---*/
+
 .inner-style.pricing-area {
     padding: 110px 0 116px;
     background: #F3F7FD;
@@ -5595,9 +5435,7 @@ background:
     background-image: linear-gradient(90deg, #f3f7fd 0%, #0b59db 100%);
 }
 
-/*---=====================================================
-   <!--Toptech faqs Area Css Inner Style-->
-=========================================================---*/
+
 
 .inner-style.faqs-area {
     padding: 124px 0 101px;
@@ -5666,9 +5504,6 @@ background:
 }
 
 
-/*---=====================================================
-   <!--Toptech Strat Project Details Area Css-->
-=========================================================---*/
 
 .project-details-area {
     padding: 123px 0 93px;
@@ -5761,9 +5596,7 @@ a.project-details-text {
 
 
 
-/*---=====================================================
-   <!--Toptech Project Area Css inner style-->
-=========================================================---*/
+
 .inner-style.project-area {
     background: #f3f8fc;
     padding: 119px 0 95px;
@@ -5957,9 +5790,7 @@ span.widget-sidber-contact-gmail i {
 }
 
 
-/*---=====================================================
-   <!--Toptech Services Details Area Css-->
-=========================================================---*/
+
 
 .services-details-area {
     padding: 122px 0 121px;
@@ -6193,9 +6024,6 @@ p.services-details-desc {
     color:#fff;
 }
 
-/*---=====================================================
-   <!--Toptech Blog Details Area Css-->
-=========================================================---*/
 .blog-details-area {
     padding: 119px 0 119px;
 }
@@ -6629,9 +6457,7 @@ button.icons {
     left: 0;
 }
 
-/*---=====================================================
-   <!--Toptech Blog Grid Area Css-->
-=========================================================---*/
+
 .blog-grid-area {
     padding: 120px 0 100px;
 }
@@ -6777,9 +6603,7 @@ button.icons {
     padding: 0 0 227px;
 }
 
-/*---=====================================================
-   <!--Toptech Careers Area Css-->
-=========================================================---*/
+
 .inner-style.careers-area {
     padding: 119px 0 95px;
     background: #F5F8FD;
@@ -6999,9 +6823,7 @@ button.icons {
 
 
 
-/*---=====================================================
-   <!--Toptech Contact Area Css-->
-=========================================================---*/
+
 .contact-area.style-three.inner {
     padding: 122px 0 122px;
 }
@@ -7017,9 +6839,7 @@ button.icons {
 }
 
 
-/*---=====================================================
-   <!--Toptech Location Area Css-->
-=========================================================---*/
+
 .location-area.inner-style {
     background: #f3f8fd;
     padding: 225px 0 0px;
@@ -7106,9 +6926,7 @@ button.icons {
     color:#fff;
 }
 
-/*---=====================================================
-   <!--Toptech Mission Area Css-->
-=========================================================---*/
+
 .mission-area.inner-style {
     padding: 123px 0 123px;
 }
@@ -7180,9 +6998,6 @@ button.icons {
     color:#fff;
 }
 
-/*---=====================================================
-   <!--Toptech Choose us Area Css-->
-=========================================================---*/
 .choose-us-area.inner-style {
     padding: 124px 0 100px;
     background: url(../images/inner-images/choose-us-bg.jpg);
@@ -7239,9 +7054,7 @@ button.icons {
     margin: 29px 0 18px;
 }
 
-/*---=====================================================
-   <!--Toptech Team Details Area Css-->
-=========================================================---*/
+
 .team-details-area {
     padding: 122px 0 88px;
     background: url(../images/team/team-bg.jpg);
@@ -7363,11 +7176,6 @@ button.icons {
 }
 
 
-/*** 
-====================================================================
-   Toptech Search Popup css
-====================================================================
-***/
 
 
 .search-popup{
@@ -7598,7 +7406,7 @@ span.flaticon-multiply i {
 
 
 
-/*------Toptech Scroll Up Css------------*/
+
 .prgoress_indicator {
     position: fixed;
     right: 26px;
@@ -7684,16 +7492,7 @@ span.flaticon-multiply i {
 
 
 
-/*-----toptech home-4 css---*/
 
-
-
-
-
-
-/*---=====================================================
-   <!--Toptech Header Area Css Style foure-->
-=========================================================---*/
 
 .style-foure.sticky {
     background: #ffff !important;
@@ -7803,9 +7602,7 @@ span.flaticon-multiply i {
     visibility: visible;
 }
 
-/*---=====================================================
-   <!--Toptech Hero Area Css Style foure-->
-=========================================================---*/
+
 .style-foure.hero-area {
     background: url(../images/home-4/slider-bg.png);
     background-repeat: no-repeat;
@@ -7974,9 +7771,7 @@ span.flaticon-multiply i {
 
 
 
-/*---=====================================================
-   <!--Toptech brand Area Css Style foure-->
-=========================================================---*/
+
 
 .brand-area.style-foure {
     background: #000049;
@@ -7997,9 +7792,7 @@ span.flaticon-multiply i {
 
 
 
-/*---=====================================================
-   <!--Toptech section-ti8tle Css Style foure-->
-=========================================================---*/
+
 
 .section-title.style-foure.text-left {
     margin-bottom: 54px;
@@ -8099,9 +7892,7 @@ span.flaticon-multiply i {
     width: 98%;
 }
 
-/*---=====================================================
-   <!--Toptech service Area Css Style foure-->
-=========================================================---*/
+
 
 
 .service-area.style-foure {
@@ -8152,22 +7943,7 @@ span.flaticon-multiply i {
     margin-left: -33px;
 }
 
-/* .service-area.style-foure .service-icon::before {
-    position: absolute;
-    content: "";
-    height: 75%;
-    width: 75%;
-    border: 1px dashed #fff;
-    border-radius: 50%;
-    left: 11px;
-    top: 11px;
-    -webkit-animation-name: rotateme;
-    -webkit-animation-duration: 15s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-} */
+
  .service-area.style-foure .service-icon::before {
     position: absolute;
     content: "";
@@ -8221,9 +7997,7 @@ span.flaticon-multiply i {
 
 
 
-/*---=====================================================
-   <!--Toptech about Area Css Style foure-->
-=========================================================---*/
+
 
 
 
@@ -8337,9 +8111,6 @@ span.flaticon-multiply i {
 
 
 
-/*---=====================================================
-   <!--Toptech about Area Css Style foure-->
-=========================================================---*/
 
 
 .counter-area.style-foure {
@@ -8481,9 +8252,7 @@ span.flaticon-multiply i {
 
 
 
-/*---=====================================================
-   <!--Toptech work Area Css Style foure-->
-=========================================================---*/
+
 
 
 
@@ -8583,9 +8352,6 @@ span.flaticon-multiply i {
 
 
 
-/*---=====================================================
-   <!--Toptech works Area Css Style foure-->
-=========================================================---*/
 
 .works-area.style-foure {
     background: #F3F8FC;
@@ -8669,9 +8435,6 @@ span.flaticon-multiply i {
 
 
 
-/*---=====================================================
-   <!--Toptech project Area Css Style foure-->
-=========================================================---*/
 
 
 .project-area.style-foure {
@@ -8774,9 +8537,7 @@ span.flaticon-multiply i {
 
 
 
-/*---=====================================================
-   <!--Toptech Team Area Css Style foure-->
-=========================================================---*/
+
 
 
 .team-area.style-foure {
@@ -8923,9 +8684,6 @@ span.flaticon-multiply i {
 
 
 
-/*---=====================================================
-   <!--Toptech testimonial Area Css Style foure-->
-=========================================================---*/
 
 
 
@@ -9009,9 +8767,7 @@ span.flaticon-multiply i {
 
 
 
-/*=============================
-Awards One Css
-===============================*/
+
 .awards-one {
     position: relative;
     display: block;
@@ -9222,9 +8978,7 @@ Awards One Css
 
 
 
-/*---=====================================================
-   <!--Toptech Footer Area Css Style foure-->
-=========================================================---*/
+
 
 
 .footer-area.style-foure {
@@ -9597,9 +9351,7 @@ Awards One Css
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/*---=====================================================
-   <!--Toptech footer-bottom-area.style-foure-->
-=========================================================---*/
+
 
 
 
