@@ -3536,7 +3536,10 @@ html {
    <!--Toptech Feature Area Home Threee Css-->
 =========================================================---*/
 .style-three.background-images-area {
-    background: url(../images/about-inner/about-images-bg.png);
+     background: 
+           linear-gradient(to right, rgba(0, 0, 255, 0.9), rgba(0, 0, 255, 0.1)),
+
+        #021533;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
