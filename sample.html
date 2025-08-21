@@ -3,1665 +3,1209 @@
 <html lang="en-US">
 
 <head>
+	<!-- Basic Meta Tags -->
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Toptech - IT-Solution HTML5 Template </title>
-	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.png">
-	<!-- bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
-	<!-- carousel CSS -->
+	
+	<!-- SEO Meta Tags -->
+	<title>SERVICE-MIDCRIB LIMITED - Innovative IT Solutions & Custom Web Development Company</title>
+	<meta name="description" content="MIDCRIB LIMITED delivers innovative IT solutions, custom websites, and enterprise applications for individuals, startups, and organizations. Expert web development, software solutions, and digital transformation services.">
+	<meta name="keywords" content="IT solutions Nigeria, web development, custom websites, enterprise applications, software development, digital transformation, startup solutions, MIDCRIB LIMITED, technology consulting, web design Nigeria">
+	<meta name="author" content="MIDCRIB LIMITED">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="English">
+	<meta name="geo.region" content="NG">
+	<meta name="geo.placename" content="Nigeria">
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.midcriblimited.com/">
+	<meta property="og:title" content="MIDCRIB LIMITED - Innovative IT Solutions & Custom Web Development">
+	<meta property="og:description" content="Expert IT solutions company delivering custom websites, enterprise applications, and digital transformation services for individuals, startups, and organizations.">
+	<meta property="og:image" content="https://www.midcriblimited.com/assets/images/logo.png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:site_name" content="MIDCRIB LIMITED">
+	<meta property="og:locale" content="en_US">
+	
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:url" content="https://www.midcriblimited.com/">
+	<meta name="twitter:title" content="MIDCRIB LIMITED - Innovative IT Solutions & Web Development">
+	<meta name="twitter:description" content="Expert IT solutions company delivering custom websites, enterprise applications, and digital transformation services.">
+	<meta name="twitter:image" content="https://www.midcriblimited.com/assets/images/logo.png">
+	<meta name="twitter:creator" content="@midcriblimited">
+	
+	<!-- Canonical URL -->
+	<link rel="canonical" href="https://www.midcriblimited.com/">
+	
+	<!-- Favicons & Icons -->
+	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/logo.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	
+	<!-- Preconnect to external domains for performance -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+	
+	<!-- DNS Prefetch -->
+	<link rel="dns-prefetch" href="//www.google-analytics.com">
+	<link rel="dns-prefetch" href="//www.googletagmanager.com">
+	
+	<!-- Structured Data - Organization Schema -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"@id": "https://www.midcriblimited.com/#organization",
+		"name": "MIDCRIB LIMITED",
+		"description": "Innovative IT solutions company delivering custom websites, enterprise applications, and digital transformation services for individuals, startups, and organizations",
+		"url": "https://www.midcriblimited.com",
+		"logo": "https://www.midcriblimited.com/assets/images/logo.png",
+		"foundingDate": "2020",
+		"industry": "Information Technology",
+		"knowsAbout": ["Web Development", "Software Development", "Digital Transformation", "Enterprise Applications", "IT Consulting"],
+		"address": {
+			"@type": "PostalAddress",
+			"addressCountry": "Nigeria"
+		},
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"contactType": "customer service",
+			"areaServed": "NG",
+			"availableLanguage": ["English"]
+		},
+		"offers": {
+			"@type": "Service",
+			"serviceType": ["Web Development", "Custom Software Development", "Enterprise Applications", "IT Consulting", "Digital Solutions"]
+		},
+		"sameAs": [
+			"https://www.facebook.com/midcriblimited",
+			"https://www.instagram.com/midcriblimited",
+			"https://www.linkedin.com/company/midcriblimited",
+			"https://twitter.com/midcriblimited"
+		]
+	}
+	</script>
+	
+	<!-- CSS Files - Optimized Loading -->
+	<!-- Critical CSS should be inlined, non-critical should be loaded async -->
+	<link rel="preload" href="assets/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="assets/css/bootstrap.min.css"></noscript>
+	
+	<link rel="preload" href="assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="assets/css/style.css"></noscript>
+	
+	<!-- Non-critical CSS loaded asynchronously -->
+	 
 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all">
-	<!-- animate CSS -->
+	<link rel="stylesheet" href="assets/css/loading.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all">
-	<!-- animated-text CSS -->
+	<link rel="stylesheet" href="assets/css/bootstraps.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/css/animated-text.css" type="text/css" media="all">
-	<!-- font-awesome CSS -->
 	<link rel="stylesheet" href="assets/css/all.min.css" type="text/css" media="all">
-	<!-- theme-default CSS -->
 	<link rel="stylesheet" href="assets/css/theme-default.css" type="text/css" media="all">
-	<!-- meanmenu CSS -->
 	<link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all">
-	<!-- transitions CSS -->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all">
-	<!-- venobox CSS -->
 	<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all">
-	<!-- bootstrap icons -->
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css" type="text/css" media="all">
-	<!-- Main Style CSS -->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
-	<!-- responsive CSS -->
 	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
-	<!-- Coustom Animation CSS -->
 	<link rel="stylesheet" href="assets/css/coustom-animation.css" type="text/css" media="all">
-	<!-- odometer CSS -->	
-	<!-- modernizr js -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+	<!-- Google Analytics (replace with your actual tracking ID) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'GA_MEASUREMENT_ID');
+	</script>
+	
+	<!-- JavaScript -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
-
 <body>
+	 <div id="quantumLoadingOverlay">
+        <div class="quantum-cosmic-bg"></div>
+        
+       
+        <div class="quantum-shape quantum-cube"></div>
+        <div class="quantum-shape quantum-triangle"></div>
+        <div class="quantum-shape quantum-circle"></div>
+        <div class="quantum-shape quantum-cube"></div>
+        <div class="quantum-shape quantum-triangle"></div>
 
-	<!-- loder -->
-	<!-- <div class="loader-wrapper">
-		<span class="loader"></span>
-		<div class="loder-section left-section"></div>
-		<div class="loder-section right-section"></div>
-	</div> -->
-
-
-<!--==================================================-->
-<!-- Start Toptech  Top Header Area Style One-->
-<!--==================================================-->
-<div class="top-header-area">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-6">
-				<div class="header-info">
-					<ul>
-						<li><i class="bi bi-geo-alt-fill"></i>
-                        1 Gabriel Street, Off Afikpo Road, Abakaliki, Ebonyi – Nigeria.
-                        </li>
-
-                       
-						<li><i class="bi bi-envelope"></i>info@midcribhub.com</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-6">
-				<div class="top-header-social-icon">
-					<ul>
-						<li class="time-line"><i class="bi bi-alarm"></i>9.10 am - 5.30 pm</li>
-						<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-						<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-						<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!--==================================================-->
-<!-- End Toptech Top Header Area Style One-->
-<!--==================================================-->
-
-
-<!--==================================================-->
-<!-- Start Toptech Header Area Style One-->
-<!--==================================================-->
-<div class="header-area style-two" id="sticky-header" >
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-3">
-				<div class="header-logo">
-					<a href="index.html"><img src="assets/images/logo.png" alt="logo" style="width: 150px; height: 50px; object-fit: contain"></a>
-				</div>
-			</div>
-			<div class="col-lg-9">
-				<div class="header-menu">
-					<ul>
-						<li class="menu-item-has-children"><a href="#">Home</a>
-                           <!-- <ul class="sub-menu">
-                           	    <li><a href="index.html">Home 1</a></li>
-                           	    <li><a href="index-2.html">Home 2</a></li>
-                           	  	<li><a href="index-3.html">Home 3</a></li>
-								<li><a href="index-4.html">Home 4</a></li>
-								<li><a href="https://html.ditsolution.net/toptech2/">Home 5 (New)</a></li>
-								<li><a href="https://html.ditsolution.net/toptech2/index-2.html">Home 6 (New)</a></li>
-                           </ul> -->
-						</li>
-						<li class="menu-item-has-children"><a href="#">Abouta>
-                           <!-- <ul class="sub-menu">
-                           	   <li><a href="about-1.html">About Us 1</a></li>
-                           	   <li><a href="about-2.html">About Us 2</a></li>
-                           </ul> -->
-						</li>
-						<li class="menu-item-has-children"><a href="#">Service</a>
-                           <!-- <ul class="sub-menu">
-                           	   <li><a href="service.html">Service</a></li>
-                           	   <li><a href="service-details.html">Service Details</a></li>
-                           </ul> -->
-						</li>
-						<li class="menu-item-has-children"><a href="#">Portfolio</i></a>
-                           <!-- <ul class="sub-menu">
-                           	   <li><a href="choose-us.html">Why Choose Us</a></li>
-                           	   <li><a href="mission.html">Mission Visson </a></li>
-                           	   <li><a href="team.html">Our Team</a></li>
-                           	   <li><a href="team-details.html">Team Details </a></li>
-                           	   <li><a href="project.html">Our Project</a></li>
-                           	   <li><a href="project-details.html">Project Details </a></li>
-                           	   <li><a href="location.html">Our Location </a></li>
-                           	   <li><a href="pricing.html">Our Pricing</a></li>
-                           	   <li><a href="careers.html">Careers </a></li>
-                           	   <li><a href="faqs.html">Faqs</a></li>
-                           </ul> -->
-						</li>
-					    <!-- <li class="menu-item-has-children"><a href="#">Blog<i class="fas fa-chevron-down"></i></a> -->
-                           <!-- <ul class="sub-menu">
-                           	   <li><a href="blog-grid.html">Blog Grid</a></li>
-                           	   <li><a href="blog-list.html">Blog List</a></li>
-                           	   <li><a href="blog-2column.html">Blog 2column</a></li>
-                           	   <li><a href="blog-details.html">Blog Details </a></li>
-                           </ul> -->
-						<!-- </li> -->
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-					<div class="header-search-icon search-box-outer">
-						<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-					</div>
-					<div class="header-button">
-						<a href="contact.html">Get A Quote</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!--==================================================-->
-<!-- End Toptech Header Area Style One-->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Start Main Menu Area -->
-<!--==================================================-->
-<div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-none ">
-	<div class="mobile-menu">
-		<nav class="header-menu">
-			<ul class="nav_scroll">
-				<li class="menu-item-has-children"><a href="#">Home</a>
-                   <!-- <ul class="sub-menu">
-                   	    <li><a href="index.html">Home 1</a></li>
-						<li><a href="index-2.html">Home 2</a></li>
-						<li><a href="index-3.html">Home 3</a></li>
-						<li><a href="index-4.html">Home 4</a></li>
-						<li><a href="https://html.ditsolution.net/toptech2/">Home 5 (New)</a></li>
-						<li><a href="https://html.ditsolution.net/toptech2/index-2.html">Home 6 (New)</a></li>
-                   </ul> -->
-				</li>
-				<li class="menu-item-has-children"><a href="#">About</a>
-                   <!-- <ul class="sub-menu">
-                   	   <li><a href="about-1.html">About Us 1</a></li>
-                   	   <li><a href="about-2.html">About Us 2</a></li>
-                   </ul> -->
-				</li>
-				<li class="menu-item-has-children"><a href="#">Service</a>
-                   <!-- <ul class="sub-menu">
-                   	   <li><a href="service.html">Service</a></li>
-                   	   <li><a href="service-details.html">Service Details</a></li>
-                   </ul> -->
-				</li>
-				<li class="menu-item-has-children"><a href="#">Pages</a>
-                   <ul class="sub-menu">
-                   	   <li><a href="choose-us.html">Why Choose Us</a></li>
-                   	   <li><a href="mission.html">Mission Visson </a></li>
-                   	   <li><a href="team.html">Our Team</a></li>
-                   	   <li><a href="team-details.html">Team Details </a></li>
-                   	   <li><a href="project.html">Our Project</a></li>
-                   	   <li><a href="project-details.html">Project Details </a></li>
-                   	   <li><a href="location.html">Our Location </a></li>
-                   	   <li><a href="pricing.html">Our Pricing</a></li>
-                   	   <li><a href="careers.html">Careers </a></li>
-                   	   <li><a href="faqs.html">Faqs</a></li>
-                   </ul>
-				</li>
-			    <li class="menu-item-has-children"><a href="#">Blog</a>
-                   <!-- <ul class="sub-menu">
-                   	   <li><a href="blog-grid.html">Blog Grid</a></li>
-                   	   <li><a href="blog-list.html">Blog List</a></li>
-                   	   <li><a href="blog-2column.html">Blog 2column</a></li>
-                   	   <li><a href="blog-details.html">Blog Details </a></li>
-                   </ul> -->
-				</li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
-</div>
-<!--==================================================-->
-<!-- End Main Menu Area -->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Hero Area Style One-->
-<!--==================================================-->
-<div class="hero-area style-two d-flex align-items-center">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-8">
-				<div class="hero-content">
-					<!-- <h4> IT Solution Agency in USA </h4> -->
-					<h1> Building Digital Solutions that Power the Future  </h1>
-					<!-- <h1> With IT Expert</h1> -->
-					<p>At MIDCRIB LIMITED, we specialize in delivering innovative IT solutions that help individuals, startups, and organizations thrive in the digital era. From custom websites to enterprise-grade applications, we merge creativity, technology, and strategy to fuel your growth
-				    </p>
-				</div>
-				<div class="hero-button">
-					<a href="contact.html">Get Started<i class="bi bi-arrow-right"></i></a>
-					<a class="button-two" href="about-1.html">Explore Our Services<i class="bi bi-arrow-right"></i></a>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="hero-right">
-					<div class="hero-thumb">
-						<img src="assets/images/home-2/hero-thumb.png" alt="">
-					</div>
-					<div class="hero-shape">
-						<img src="assets/images/hero-shape.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!--==================================================-->
-<!-- End Toptech Hero Area Style One-->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Feature Area Style Two-->
-<!--==================================================-->
-<div class="feature-area style-two">
-	<div class="container">
-        <div class="row add-marging">
-        	<div class="col-lg-3 col-md-6">
-        		<div class="single-feature-box">
-        			<div class="feature-icon">
-        				<img src="assets/images/home-2/feature-icon1.png" alt="">
-        			</div>
-        			<div class="feature-content">
-        				<h4>50+ </h4>
-        				<p>Successful Projects Delivered across various industries</p>
-        				<a href="service.html">Read More</a>
-        			</div>
-        		</div>
-        	</div>        	
-        	<div class="col-lg-3 col-md-6">
-        		<div class="single-feature-box">
-        			<div class="feature-icon">
-        				<img src="assets/images/home-2/feature-icon2.png" alt="">
-        			</div>
-        			<div class="feature-content">
-        				<h4>	20+ </h4>
-        				<p>Global Clients Served  spanning Nigeria, UK, USA</p>
-        				<a href="service.html">Read More</a>
-        			</div>
-        		</div>
-        	</div>        	
-        	<div class="col-lg-3 col-md-6">
-        		<div class="single-feature-box">
-        			<div class="feature-icon">
-        				<img src="assets/images/home-2/feature-icon3.png" alt="">
-        			</div>
-        			<div class="feature-content">
-        				<h4>	End-to-End </h4>
-        				<p>Support & Maintenance throughout project lifecycle</p>
-        				<a href="service.html">Read More</a>
-        			</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-3 col-md-6">
-        		<div class="single-feature-box">
-        			<div class="feature-icon">
-        				<img src="assets/images/home-2/feature-icon3.png" alt="">
-        			</div>
-        			<div class="feature-content">
-        				<h4>	100% </h4>
-        				<p>On-Time Delivery Record maintained since inception</p>
-        				<a href="service.html">Read More</a>
-        			</div>
-        		</div>
-        	</div>
-        </div>
-	</div>
-</div>
-<!--==================================================-->
-<!-- End Toptech Feature Area Style Two-->
-<!--==================================================-->
-
-
-<!--==================================================-->
-<!-- Start Toptech About Area Style two-->
-<!--==================================================-->
-<div class="about-area style-two">
-	<div class="container">
-    <div class="row align-items-center">
-        <div class="col-lg-6">
-            <div class="about-left" style=" position: relative;">
-                <div class="about-thumb" style="width: 100%; height: 500px; background: url('assets/images/website-development.jpg') no-repeat center center; background-size: cover; border-radius: 8px;">
-                    <!-- Image is now set as background -->
+        <div class="quantum-loading-container">
+            <div class="quantum-loading-card">
+             
+                <div class="quantum-spinner">
+                    <div class="quantum-spinner-ring quantum-ring-1"></div>
+                    <div class="quantum-spinner-ring quantum-ring-2"></div>
+                    <div class="quantum-spinner-ring quantum-ring-3"></div>
+                    <div class="quantum-core"></div>
                 </div>
-                <div class="about-shape">
-                    <!-- <img src="assets/images/about-shape.png" alt=""> -->
+                
+              
+                <div class="quantum-loading-text">LOADING</div>
+                
+                
+                <div class="quantum-dots">
+                    <div class="quantum-dot"></div>
+                    <div class="quantum-dot"></div>
+                    <div class="quantum-dot"></div>
                 </div>
-                <!-- <div class="about-conter-box" style="position: absolute; bottom: 20px; left: 20px; background: rgba(255, 255, 255, 0.9); padding: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-                    <div class="about-counter-title" style="text-align: center;">
-                        <h4 style="margin: 0; font-size: 36px; color: #007bff; font-weight: bold;">18</h4>
-                        <span style="font-size: 24px; color: #007bff; font-weight: bold;">+</span>
-                        <p style="margin: 5px 0 0 0; font-size: 14px; line-height: 1.3; color: #333;">Years Of <br> Experiences</p>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="about-right">
-                <div class="section-title left style-two">
-                    <h4>About Us Snapshot</h4>
-                    <h1>Who We Are</h1>
-                    <!-- <h1>IT Services Source</h1> -->
-                    <p>
-                        MIDCRIB LIMITED is a leading digital solutions provider based in Nigeria, serving clients across the globe. With a team of highly skilled developers, designers, and IT professionals, we transform ideas into world-class digital products
-
-                    </p>
-                    <p>
-                       We don’t just build software — we build long-term partnerships by creating solutions that are scalable, secure, and tailored to your unique needs. Whether you’re an individual seeking a personal website or a corporation in need of enterprise-level systems, MIDCRIB delivers excellence, every time.
-                    </p>
+                
+              
+                <div class="quantum-progress-container">
+                    <div class="quantum-progress-bar" id="quantumProgressBar"></div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="single-about-icon-box">
-                            <div class="about-icon">
-                                <img src="assets/images/home-2/about-icon1.png" alt="">
-                            </div>
-                            <div class="about-icon-box-content">
-                                <h4>50+ Successful Projects Delivered</h4>
-                            </div>
-                        </div>
-                    </div>						
-                    <div class="col-lg-6 col-md-6">
-                        <div class="single-about-icon-box">
-                            <div class="about-icon">
-                                <img src="assets/images/home-2/about-icon2.png" alt="">
-                            </div>
-                            <div class="about-icon-box-content">
-                                <h4>20+ Global Clients Served</h4>
-                            </div>
-                        </div>
-                    </div>						
-                    <div class="col-lg-6 col-md-6">
-                        <div class="single-about-icon-box">
-                            <div class="about-icon">
-                                <img src="assets/images/home-2/about-icon3.png" alt="">
-                            </div>
-                            <div class="about-icon-box-content">
-                                <h4>100% On-Time Delivery Record</h4>
-                            </div>
-                        </div>
-                    </div>						
-                    <div class="col-lg-6 col-md-6">
-                        <div class="single-about-icon-box">
-                            <div class="about-icon">
-                                <img src="assets/images/home-2/about-icon4.png" alt="">
-                            </div>
-                            <div class="about-icon-box-content">
-                                <h4>End-to-End Support & Maintenance</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="toptech-button style-one">
-                    <a href="about-1.html">About More<i class="bi bi-arrow-right-circle-fill"></i></a>
-                </div>
-                <div class="about-shape-two">
-                    <img src="assets/images/home-2/about-shape2.png" alt="">
-                </div>
+                
+              
+                <div class="quantum-percentage" id="quantumPercentage">0%</div>
+                
+             
+                <div class="quantum-status-text" id="quantumStatusText">Innovative IT Solutions...</div>
             </div>
         </div>
     </div>
-</div>
-</div>
-<!--==================================================-->
-<!-- End Toptech About Area Style One-->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Service Area Style Two-->
-<!--==================================================-->
-<div class="service-area style-two">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title center style-two">
-					<h4>Our Services </h4>
-					<h1 >What We Do Best</h1>
-					<h4>We provide a full suite of IT services tailored to individuals and organizations.
-</h4>
-
-					<!-- <h1>IT Services Source</h1> -->
-			    </div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-1.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>01</h1>
-					</div>
-					<div class="service-content">
-						<h4>Custom Website Development </h4>
-						<p> Responsive, SEO-optimized websites that reflect your brand identity.
-</p>
-						<a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
+	<div class="main-content">
+	
+		<!-- loder -->
+		<!-- <div class="loader-wrapper">
+			<span class="loader"></span>
+			<div class="loder-section left-section"></div>
+			<div class="loder-section right-section"></div>
+		</div> -->
+	
+	
+	
+	<div class="top-header-area">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="header-info">
+						<ul>
+							<li><i class="bi bi-geo-alt-fill"></i>
+							1 Gabriel Street, Off Afikpo Road, Abakaliki, Ebonyi – Nigeria.
+							</li>
+	
+						   
+							<li><i class="bi bi-envelope"></i>info@midcribhub.com</li>
+						</ul>
 					</div>
 				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-2.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>02</h1>
-					</div>
-					<div class="service-content">
-						<h4>Mobile App Development </h4>
-						<p>
-	 Intuitive Android and iOS apps designed to engage users.
-                            
-                        </p>
-						<a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-3.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>03</h1>
-					</div>
-					<div class="service-content">
-						<h4>E-commerce Solutions </h4>
-						<p>
-	 Secure and scalable online stores with seamless payment integration.
-
-                        </p>
-						<a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-4.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>04</h1>
-					</div>
-					<div class="service-content">
-						<h4>Enterprise Software Development </h4>
-						<p>
-	 CRM, ERP, and workflow automation tools for business efficiency.
-
-                        </p>
-						<a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-5.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>05</h1>
-					</div>
-					<div class="service-content">
-						<h4>API Integration & Automation </h4>
-						<p>
-	 Connect your systems for smarter, faster processes and automations.
-                            
-                        </p>
-						<a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-services-box">
-					<div class="service-icon-thumb">
-						<img src="assets/images/home-2/service-6.png" alt="">
-					</div>
-					<div class="service-number">
-						<h1>06</h1>
-					</div>
-					<div class="service-content">
-						<h4>Maintenance & Support </h4>
-						<p>
-	Reliable updates, security, and ongoing technical care.
-                            
-                        </p>
-						<a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!--==================================================-->
-<!-- End Toptech Service Area Style Two-->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Team Area  Style Two-->
-<!--==================================================-->
-<!-- <div class="team-area style-two">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-7">
-			    <div class="section-title left style-two">
-        			<h4>Dedicated Team</h4>
-        			<h1>Meet Our Dedicated Member</h1>
-        			<h1>For Any Enquery</h1>
-        		</div>
-			</div>
-			<div class="col-lg-5">
-			    <div class="toptech-button style-one">
-                	<a href="team.html">All Member<i class="bi bi-arrow-right-circle-fill"></i></a>
-                </div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-3 col-md-6">
-				<div class="single-team-box">
-					<div class="team-thumb">
-						<img src="assets/images/team/team-1.png" alt="">
-					</div>
-					<div class="team-content">
-						<h4>John D. Alexon</h4>
-						<p>UI Designer</p>
-						<div class="team-shape">
-							<img src="assets/images/team/team-shape.png" alt="">
-						</div>
-					</div>
-					<div class="team-socila-icon-box">
-						<div class="team-share">
-							<div class="team-share-icon">
-								<span><i class="bi bi-share"></i></span>
-							</div>
-						</div>
-						<div class="team-social-icon">
-							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-3 col-md-6">
-				<div class="single-team-box">
-					<div class="team-thumb">
-						<img src="assets/images/team/team-2.png" alt="">
-					</div>
-					<div class="team-content">
-						<h4>Alexina Gomez</h4>
-						<p>HR Manager</p>
-						<div class="team-shape">
-							<img src="assets/images/team/team-shape.png" alt="">
-						</div>
-					</div>
-					<div class="team-socila-icon-box">
-						<div class="team-share">
-							<div class="team-share-icon">
-								<span><i class="bi bi-share"></i></span>
-							</div>
-						</div>
-						<div class="team-social-icon">
-							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-3 col-md-6">
-				<div class="single-team-box">
-					<div class="team-thumb">
-						<img src="assets/images/team/team-3.png" alt="">
-					</div>
-					<div class="team-content">
-						<h4>Antoine Brown</h4>
-						<p>Developer</p>
-						<div class="team-shape">
-							<img src="assets/images/team/team-shape.png" alt="">
-						</div>
-					</div>
-					<div class="team-socila-icon-box">
-						<div class="team-share">
-							<div class="team-share-icon">
-								<span><i class="bi bi-share"></i></span>
-							</div>
-						</div>
-						<div class="team-social-icon">
-							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="single-team-box">
-					<div class="team-thumb">
-						<img src="assets/images/team/team-4.png" alt="">
-					</div>
-					<div class="team-content">
-						<h4>Carolina Scott</h4>
-						<p>UI Designer</p>
-						<div class="team-shape">
-							<img src="assets/images/team/team-shape.png" alt="">
-						</div>
-					</div>
-					<div class="team-socila-icon-box">
-						<div class="team-share">
-							<div class="team-share-icon">
-								<span><i class="bi bi-share"></i></span>
-							</div>
-						</div>
-						<div class="team-social-icon">
-							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>			
-	</div>
-</div> -->
-<!--==================================================-->
-<!-- End Toptech Team Area Style Two-->
-<!--==================================================-->
-
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Counter Area Home two-->
-<!--==================================================-->
-<div class="counter-area style-two">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-box">
-					<div class="counter-content">
-						<h4 class="counterup">50</h4>
-						<span>K+</span>
-						<p>Successful Projects Delievered</p>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-box">
-					<div class="counter-content">
-						<h4 class="counterup">20</h4>
-						<span>+</span>
-						<p>Global clients Served</p>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-box">
-					<div class="counter-content">
-						<h4>100</h4>
-						<span>%</span>
-						<p>On-Time Delivery Record</p>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-box">
-					<div class="counter-content">
-						<h4>100</h4>
-						<span>%</span>
-						<p>End-to-End Support & Maintenance</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!--==================================================-->
-<!-- Start Toptech Counter Area Style Two-->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Portfolio Area  Style Two-->
-<!--==================================================-->
-<div class="portfolio-area style-two">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title center style-two">
-					<h4>IT Support For Business</h4>
-					<h1>Ensuring Your Success Trusted</h1>
-					<h1>IT Services Source</h1>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="portfolio_nav">
-					<div class="portfolio_menu">
-						<ul class="menu-filtering">
-							<li class="current_menu_item" data-filter="*"> All items </li>
-							<li data-filter=".technology">Technology </li>
-							<li data-filter=".designing">Designing </li>
-							<li data-filter=".bussiness"> Bussiness </li>
+				<div class="col-lg-6">
+					<div class="top-header-social-icon">
+						<ul>
+							<li class="time-line"><i class="bi bi-alarm"></i>9.10 am - 5.30 pm</li>
+							<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row image_load">
-			<div class="col-lg-4 col-md-6 grid-item technology">
-				<div class="single-portfolio-box">
-					<div class="portfolio-thumb">
-						<img src="assets/images/view-male-engineer-work-engineers-day-celebration.jpg" alt="">
+	</div>
+	
+	<div class="header-area style-two" id="sticky-header" >
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-3">
+					<div class="header-logo">
+						<a href="index.html"><img src="assets/images/logo.png" alt="logo" style="width: 150px; height: 50px; object-fit: contain"></a>
 					</div>
-					<div class="portfolio-content">
-						<div class="portfolio-number">
+				</div>
+				<div class="col-lg-9">
+					<div class="header-menu">
+						<ul>
+							<li class="menu-item-has-children"><a href="#">Home</a>
+													  </li>
+							<li class="menu-item-has-children"><a href="#">About</a>
+							   <ul class="sub-menu">
+									  <li><a href="about.html">About Us </a></li>
+															 <li><a href="mission.html">Why Chose Us</a></li>
+	
+									 
+							   </ul>
+							</li>
+							<li class="menu-item-has-children"><a href="service.html">Service</a>
+							  
+							</li>
+							<li class="menu-item-has-children"><a href="#">Portfolio</i></a>
+							   
+							</li>
+						   
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<div class="header-search-icon search-box-outer">
+							<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+						</div>
+						<div class="header-button">
+							<a href="contact.html">Get A Quote</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-none ">
+		<div class="mobile-menu">
+			<nav class="header-menu">
+				<ul class="nav_scroll">
+					<li class="menu-item-has-children"><a href="#">Home</a>
+					  
+					</li>
+					<li class="menu-item-has-children"><a href="#">About</a>
+						 <ul class="sub-menu">
+							  <li><a href="about.html">About Us</a></li>
+												 <li><a href="mission.html">Why Chose Us</a></li>
+	
+					   </ul>
+					</li>
+					<li class="menu-item-has-children"><a href="service.html">Service</a>
+					  
+					</li>
+					<li class="menu-item-has-children"><a href="#">Portfolio</a>
+					  
+					</li>
+					
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div class="hero-area style-two d-flex align-items-center">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-8">
+					<div class="hero-content">
+						<h1 class="fade-in-up delay-1">Building Digital Solutions that Power the Future</h1>
+						<p class="fade-in-up delay-2" style="color: white;">
+							At MIDCRIB LIMITED, we specialize in delivering innovative IT solutions that help individuals, 
+							startups, and organizations thrive in the digital era. From custom websites to enterprise-grade 
+							applications, we merge creativity, technology, and strategy to fuel your growth
+						</p>
+					</div>
+					<div class="hero-button fade-in-up delay-3">
+						<a href="contact.html">Get Started<i class="bi bi-arrow-right"></i></a>
+						<a class="button-two" href="about.html">Our Services<i class="bi bi-arrow-right"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="hero-right">
+						<div class="hero-thumb fade-in-right delay-4">
+							<img src="assets/images/home-2/hero-thumb.png" alt="">
+						</div>
+						<div class="hero-shape fade-in-right delay-5">
+							<img src="assets/images/hero-shape.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="feature-area style-two">
+		<div class="container">
+			<div class="row add-marging">
+				<div class="col-lg-3 col-md-6">
+					<div class="single-feature-box fade-in-scale delay-1">
+						<div class="feature-icon">
+							<img src="assets/images/feature-icon1.png" alt="">
+						</div>
+						<div class="feature-content">
+							<h4 class="counter" data-count="50">0+</h4>
+							<p>Successful Projects Delivered across various industries</p>
+							<a href="service.html">Read More</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-6">
+					<div class="single-feature-box fade-in-scale delay-2">
+						<div class="feature-icon">
+							<img src="assets/images/feature-icon2.png" alt="">
+						</div>
+						<div class="feature-content">
+							<h4 class="counter" data-count="20">0+</h4>
+							<p>Global Clients Served spanning Nigeria, UK, USA</p>
+							<a href="service.html">Read More</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-6">
+					<div class="single-feature-box fade-in-scale delay-3">
+						<div class="feature-icon">
+							<img src="assets/images/feature-icon3.png" alt="">
+						</div>
+						<div class="feature-content">
+							<h4>End-to-End</h4>
+							<p>Support & Maintenance throughout project lifecycle</p>
+							<a href="service.html">Read More</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-6">
+					<div class="single-feature-box fade-in-scale delay-4">
+						<div class="feature-icon">
+							<img src="assets/images/feature-icon2.png" alt="">
+						</div>
+						<div class="feature-content">
+							<h4 class="counter" data-count="100">0%</h4>
+							<p>On-Time Delivery Record maintained since inception</p>
+							<a href="service.html">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="about-area style-two">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="about-left slide-in-left delay-1" style="position: relative;">
+						<div class="about-thumb" style="width: 100%; height: 500px; background: url('assets/images/website-development.jpg') no-repeat center center; background-size: cover; border-radius: 8px;">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="about-right">
+						<div class="section-title left style-two">
+							<h4 class="fade-in-up delay-2">About Us</h4>
+							<h1 class="fade-in-up delay-3">Who We Are</h1>
+							
+							<p class="fade-in-up delay-4">
+								MIDCRIB LIMITED is a leading digital solutions provider based in Nigeria, serving clients across the globe. With a team of highly skilled developers, designers, and IT professionals, we transform ideas into world-class digital products
+							</p>
+							<p class="fade-in-up delay-5">
+							   We don't just build software — we build long-term partnerships by creating solutions that are scalable, secure, and tailored to your unique needs. Whether you're an individual seeking a personal website or a corporation in need of enterprise-level systems, MIDCRIB delivers excellence, every time.
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 col-md-6">
+								<div class="single-about-icon-box zoom-in delay-6">
+									<div class="about-icon">
+										<img src="assets/images/about-icon1.png" alt="">
+									</div>
+									<div class="about-icon-box-content">
+										<h4>50+ Successful Projects Delivered</h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="single-about-icon-box zoom-in delay-7">
+									<div class="about-icon">
+										<img src="assets/images/about-icon2.png" alt="">
+									</div>
+									<div class="about-icon-box-content">
+										<h4>20+ Global Clients Served</h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="single-about-icon-box zoom-in delay-8">
+									<div class="about-icon">
+										<img src="assets/images/about-icon3.png" alt="">
+									</div>
+									<div class="about-icon-box-content">
+										<h4>100% On-Time Delivery Record</h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="single-about-icon-box zoom-in delay-8">
+									<div class="about-icon">
+										<img src="assets/images/about-icon4.png" alt="">
+									</div>
+									<div class="about-icon-box-content">
+										<h4>End-to-End Support & Maintenance</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="toptech-button style-one fade-in-up delay-8">
+							<a href="about.html">About More<i class="bi bi-arrow-right-circle-fill"></i></a>
+						</div>
+						<div class="about-shape-two rotate-fade-in delay-8">
+							<img src="assets/images/about-shape2.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="service-area style-two" >
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-title center style-two">
+						<h4 class="fade-in-down delay-1">Our Services</h4>
+						<h1 class="fade-in-down delay-2">What We Do Best</h1>
+						<h4 class="fade-in-down delay-3">We provide a full suite of IT services tailored to individuals and organizations.</h4>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services-box slide-up-bounce delay-4">
+						<div class="service-icon-thumb">
+							<img src="assets/images/home-2/service-1.png" alt="">
+						</div>
+						<div class="service-number">
 							<h1>01</h1>
 						</div>
-						<div class="portfolio-title">
-							<a href="project-details.html">Business Growth with Toptech Agency <i class="bi bi-plus"></i></a>
+						<div class="service-content">
+							<h4>Custom Website Development</h4>
+							<p>Responsive, SEO-optimized websites that reflect your brand identity.</p>
+							<a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6 grid-item designing">
-				<div class="single-portfolio-box">
-					<div class="portfolio-thumb">
-						<img src="assets/images/ui-ux-representations-with-laptop.jpg" alt="">
-					</div>
-					<div class="portfolio-content">
-						<div class="portfolio-number">
+				
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services-box slide-up-bounce delay-5">
+						<div class="service-icon-thumb">
+							<img src="assets/images/home-2/service-2.png" alt="">
+						</div>
+						<div class="service-number">
 							<h1>02</h1>
 						</div>
-						<div class="portfolio-title">
-							<a href="project-details.html">Desktop Application Development <i class="bi bi-plus"></i></a>
+						<div class="service-content">
+							<h4>Mobile App Development</h4>
+							<p>Intuitive Android and iOS apps designed to engage users.</p>
+							<a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6 grid-item bussiness">
-				<div class="single-portfolio-box">
-					<div class="portfolio-thumb">
-						<img src="assets/images/startup-it-engineer-doing-code-testing-quality-assurance.jpg" alt="">
-					</div>
-					<div class="portfolio-content">
-						<div class="portfolio-number">
+				
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services-box slide-up-bounce delay-6">
+						<div class="service-icon-thumb">
+							<img src="assets/images/home-2/service-3.png" alt="">
+						</div>
+						<div class="service-number">
 							<h1>03</h1>
 						</div>
-						<div class="portfolio-title">
-							<a href="project-details.html">Illustration and Vector Design for Add <i class="bi bi-plus"></i></a>
+						<div class="service-content">
+							<h4>E-commerce Solutions</h4>
+							<p>Secure and scalable online stores with seamless payment integration.</p>
+							<a href="service.html">Read More<i class="bi bi-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services-box slide-up-bounce delay-7">
+						<div class="service-icon-thumb">
+							<img src="assets/images/home-2/service-4.png" alt="">
+						</div>
+						<div class="service-number">
+							<h1>04</h1>
+						</div>
+						<div class="service-content">
+							<h4>Enterprise Software Development</h4>
+							<p>CRM, ERP, and workflow automation tools for business efficiency.</p>
+							<a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services-box slide-up-bounce delay-8">
+						<div class="service-icon-thumb">
+							<img src="assets/images/home-2/service-5.png" alt="">
+						</div>
+						<div class="service-number">
+							<h1>05</h1>
+						</div>
+						<div class="service-content">
+							<h4>API Integration & Automation</h4>
+							<p>Connect your systems for smarter, faster processes and automations.</p>
+							<a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6">
+					<div class="single-services-box slide-up-bounce delay-9">
+						<div class="service-icon-thumb">
+							<img src="assets/images/home-2/service-6.png" alt="">
+						</div>
+						<div class="service-number">
+							<h1>06</h1>
+						</div>
+						<div class="service-content">
+							<h4>Maintenance & Support</h4>
+							<p>Reliable updates, security, and ongoing technical care.</p>
+							<a href="service.html">View All Services<i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!--==================================================-->
-<!-- End Toptech Portfolio Area  Style Two-->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Working Process Area  Style Two-->
-<!--==================================================-->
-<div class="working-proces-area style-two">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title center style-two">
-					<h4>Why Choose MIDCRIB</h4>
-					<h1>Your Trusted Digital Partner</h1>
-					<h4>When you work with MIDCRIB, you don't just get developers — you get a dedicated team committed to your success.</h4>
-
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="working-process-box before-transprent after-transprent">
-					<div class="process-thumb">
-						<img src="assets/images/woman-using-computer-credit-card.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
-						<div class="process-number">
-							<span>01</span>
+	
+	
+	<div class="counter-area style-two" style="color: black;">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-3 col-md-6">
+					<div class="counter-box counter-slide-up delay-1">
+						<div class="counter-content">
+							<h4 class="counter-number counterup" data-count="50">0</h4>
+							<span class="counter-symbol">K+</span>
+							<p class="text-fade-in delay-1">Successful Projects Delivered</p>
 						</div>
 					</div>
-					<div class="process-content">
-						<h4>Tailored Solutions</h4>
-						<p>Every product is customized to your unique needs.</p>
-					</div>
 				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="working-process-box after-transprent">
-					<div class="process-thumb">
-						<img src="assets/images/data-center-admin-typing-keyboard-maintaining-company-infrastructure.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
-
-						<div class="process-number two">
-							<span>02</span>
+				
+				<div class="col-lg-3 col-md-6">
+					<div class="counter-box counter-slide-up delay-2">
+						<div class="counter-content">
+							<h4 class="counter-number counterup" data-count="20">0</h4>
+							<span class="counter-symbol">+</span>
+							<p class="text-fade-in delay-2">Global Clients Served</p>
 						</div>
 					</div>
-					<div class="process-content">
-						<h4>Global-Standard Expertise</h4>
-						<p>We use the latest tools and frameworks to ensure quality</p>
-					</div>
 				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="working-process-box before-transprent">
-					<div class="process-thumb">
-						<!-- <img src="" alt=""> -->
-						<img src="assets/images/2150063168.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
-
-						<div class="process-number">
-							<span>03</span>
+				
+				<div class="col-lg-3 col-md-6">
+					<div class="counter-box counter-slide-up delay-3">
+						<div class="counter-content">
+							<h4 class="counter-number counterup" data-count="100">0</h4>
+							<span class="counter-symbol">%</span>
+							<p class="text-fade-in delay-3">On-Time Delivery Record</p>
 						</div>
 					</div>
-					<div class="process-content">
-						<h4>Transparent Communication</h4>
-						<p>Regular updates and collaboration at every stage.</p>
-					</div>
 				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="working-process-box before-transprent after-transprent">
-					<div class="process-thumb">
-						<img src="assets/images/woman-using-computer-credit-card.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
-						<div class="process-number">
-							<span>04</span>
+				
+				<div class="col-lg-3 col-md-6">
+					<div class="counter-box counter-slide-up delay-4">
+						<div class="counter-content">
+							<h4 class="counter-number counterup" data-count="100">0</h4>
+							<span class="counter-symbol">%</span>
+							<p class="text-fade-in delay-4">End-to-End Support & Maintenance</p>
 						</div>
-					</div>
-					<div class="process-content">
-						<h4>On-Time Delivery:</h4>
-						<p>Projects completed on schedule without compromising quality.</p>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="working-process-box after-transprent">
-					<div class="process-thumb">
-						<img src="assets/images/data-center-admin-typing-keyboard-maintaining-company-infrastructure.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
-
-						<div class="process-number two">
-							<span>05</span>
-						</div>
-					</div>
-					<div class="process-content">
-						<h4>Long-Term Support</h4>
-						<p>We stay with you after launch to ensure smooth operations.</p>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="working-process-box before-transprent">
-					<div class="process-thumb">
-						<!-- <img src="" alt=""> -->
-						<img src="assets/images/2150063168.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
-
-						<div class="process-number">
-							<span>06</span>
-						</div>
-					</div>
-					<div class="process-content">
-						<h4>Cost-Effective Excellence</h4>
-						<p>Premium quality solutions at competitive rates that deliver maximum ROI</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!--==================================================-->
-<!-- End Toptech Working Process Area  Style Two-->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Testimonial Area Style One-->
-<!--==================================================-->
-<div class="testimonial-area style-one">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title center style-two">
-        			<h4>Testimonial</h4>
-        			<h1>Customer’s Awesome Feedback</h1>
-        			<h1>About Our Services</h1>
-        		</div>
+	
+	
+	<div class="portfolio-area style-two">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-title center style-two">
+						<h4 class="fade-in-down delay-1">IT Support For Business</h4>
+						<h1 class="fade-in-down delay-2">Ensuring Your Success Trusted</h1>
+						<h1 class="fade-in-down delay-3">IT Services Source</h1>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="testi-list-1 owl-carousel">
-			   <div class="col-lg-12 text-center">
-					<div class="single-testimonial-box">
-						<div class="testi-desc">
-							<p>Completely extend leveraged customer service rather than performance based imperatives.
-	                         magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches
-	                         technology. Enthusiastically e-enable global e-markets for cooperative e-business. 
-	                         Authoritatively deliver highly efficient expertise</p>
-						</div>
-						<div class="testi-rating">
-							<ul>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
+	
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="portfolio_nav">
+						<div class="portfolio_menu">
+							<ul class="menu-filtering">
+								<li class="current_menu_item fade-in-down delay-1" data-filter="*"> All items </li>
+								<li data-filter=".technology" class="fade-in-down delay-2">Technology </li>
+								<li data-filter=".designing" class="fade-in-down delay-3">Designing </li>
+								<li data-filter=".bussiness" class="fade-in-down delay-4"> Bussiness </li>
 							</ul>
 						</div>
-						<div class="testi-author">
-							<h4>Venkatesh Iyer</h4>
-							<p>UI Designer</p>
-						</div>
-					</div>
-			   </div>			   
-			   <div class="col-lg-12 text-center">
-					<div class="single-testimonial-box">
-						<div class="testi-desc">
-							<p>Completely extend leveraged customer service rather than performance based imperatives.
-	                         magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches
-	                         technology. Enthusiastically e-enable global e-markets for cooperative e-business. 
-	                         Authoritatively deliver highly efficient expertise</p>
-						</div>
-						<div class="testi-rating">
-							<ul>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-							</ul>
-						</div>
-						<div class="testi-author">
-							<h4>John D. Alexon</h4>
-							<p>UI Designer</p>
-						</div>
-					</div>
-			   </div>			   
-			   <div class="col-lg-12 text-center">
-					<div class="single-testimonial-box">
-						<div class="testi-desc">
-							<p>Completely extend leveraged customer service rather than performance based imperatives.
-	                         magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches
-	                         technology. Enthusiastically e-enable global e-markets for cooperative e-business. 
-	                         Authoritatively deliver highly efficient expertise</p>
-						</div>
-						<div class="testi-rating">
-							<ul>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-							</ul>
-						</div>
-						<div class="testi-author">
-							<h4>Alex Brock </h4>
-							<p>UI Designer</p>
-						</div>
-					</div>
-			   </div>			   
-			   <div class="col-lg-12 text-center">
-					<div class="single-testimonial-box">
-						<div class="testi-desc">
-							<p>Completely extend leveraged customer service rather than performance based imperatives.
-	                         magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches
-	                         technology. Enthusiastically e-enable global e-markets for cooperative e-business. 
-	                         Authoritatively deliver highly efficient expertise</p>
-						</div>
-						<div class="testi-rating">
-							<ul>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-								<li><i class="bi bi-star-fill"></i></li>
-							</ul>
-						</div>
-						<div class="testi-author">
-							<h4>Abhishek Sharma</h4>
-							<p>UI Designer</p>
-						</div>
-					</div>
-			   </div>
-			</div>
-		</div>
-	</div>
-</div>
-<!--==================================================-->
-<!-- End Toptech Testimonial Area Style One-->
-<!--==================================================-->
-
-
-<!--==================================================-->
-<!-- Start Toptech Video Area Style Two-->
-<!--==================================================-->
-<div class="video-area style-two">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title center style-two" style="flex-direction: column; align-items: center; justify-content: center; display: flex;">
-					<!-- <h4>Watch Now</h4> -->
-					<h1>Ready to Build Your Digital Future?
-</h1>
-<p style="max-width: 50%; text-align: center; color: white;" class="">Whether you’re looking for a personal website, a scalable e-commerce store, or an enterprise-grade system, MIDCRIB LIMITED has the expertise to bring your vision to life. Let’s partner to create something extraordinary
-
-</p>
-					<!-- <h1>with Team Expert Leaders</h1> -->
-				</div>
-                <div class="hero-button">
-					<a href="contact.html">Get Started<i class="bi bi-arrow-right"></i></a>
-					<a class="button-two" href="about-1.html">Explore Our Services<i class="bi bi-arrow-right"></i></a>
-				</div>
-			</div>
-			<!-- <div class="col-lg-12">
-				<div class="video-button">
-					<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=e6R6VsgD8yQ&amp;amp;t=179s"><i class="bi bi-play-fill"></i></a>
-				</div>
-			</div> -->
-		</div>
-	</div>
-</div>
-<!--==================================================-->
-<!-- End Toptech Video Area Style Two-->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Start Toptech contact info Area Style Two-->
-<!--==================================================-->
-<div class="contact-info-area style-two">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="contact-info-box">
-					<div class="contact-info-icon">
-						<i class="fa-solid fa-phone"></i>
-					</div>
-					<div class="contact-info-content">
-						<h4>Call us Any time</h4>
-						<p>+234 8077 444 866</p>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="contact-info-box">
-					<div class="contact-info-icon">
-						<i class="fa-regular fa-envelope"></i>
-					</div>
-					<div class="contact-info-content">
-						<h4>Send E-Mail</h4>
-						<p>info@midcribhub.com</p>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="contact-info-box">
-					<div class="contact-info-icon">
-						<i class="fa-regular fa-clock"></i>
-					</div>
-					<div class="contact-info-content">
-						<h4>Opening Hours</h4>
-						<p>Mon - Fri (8.00 - 5.00)</p>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
-<!--==================================================-->
-<!-- End Toptech contact info Area Style Two-->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Pricing Area Style Two-->
-<!--==================================================-->
-<div class="pricing-area style-two">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-6">
-	            <div class="section-title left style-two">
-	    			<h4>Pricing Plan </h4>
-	    			<h1>Our Best Affordable Pricing Plan</h1>
-	    			<h1>Choose Your Plans</h1>
-	        	</div>
-	        	<div class="faqs-container">
-                    <div class="faq-singular">
-					    <h2 class="faq-question" onclick="
-					    	var answer = this.nextElementSibling;
-					    	var allAnswers = document.querySelectorAll('.faq-answer');
-					    	var allQuestions = document.querySelectorAll('.faq-question');
-					    	
-					    	// Check if this one is already open
-					    	var isOpen = answer.style.display === 'block';
-					    	
-					    	// Close all others
-					    	allAnswers.forEach(function(a) { a.style.display = 'none'; });
-					    	allQuestions.forEach(function(q) { q.style.background = ''; });
-					    	
-					    	// If it wasn't open, open it. If it was open, keep it closed
-					    	if (!isOpen) {
-					    		answer.style.display = 'block';
-					    		this.style.background = '';
-					    	}">What makes MIDCRIB different from other IT companies?</h2>
-					    <div class="faq-answer">
-					      <div class="desc">
-                           At MIDCRIB, we don’t just build digital products—we craft tailored solutions that align with your business goals. Our approach is client-first, ensuring every project is delivered with innovation, precision, and measurable results. With experience across startups, NGOs, enterprises, and government agencies, we bring both versatility and industry expertise to the table.
-					      </div>
-					    </div>
-				    </div>					    
-				    <div class="faq-singular">
-					    <h2 class="faq-question" onclick="
-					    	var answer = this.nextElementSibling;
-					    	var allAnswers = document.querySelectorAll('.faq-answer');
-					    	var allQuestions = document.querySelectorAll('.faq-question');
-					    	
-					    	// Check if this one is already open
-					    	var isOpen = answer.style.display === 'block';
-					    	
-					    	// Close all others
-					    	allAnswers.forEach(function(a) { a.style.display = 'none'; });
-					    	allQuestions.forEach(function(q) { q.style.background = ''; });
-					    	
-					    	// If it wasn't open, open it. If it was open, keep it closed
-					    	if (!isOpen) {
-					    		answer.style.display = 'block';
-					    		this.style.background = '';
-					    	}"> How long does it take to develop a custom website?</h2>
-					    <div class="faq-answer">
-					      <div class="desc">
-                            The timeline depends on the complexity of the project. A simple business website may take 2–4 weeks, while a complex enterprise-level platform may require 8–12 weeks or more. We always provide a detailed project timeline after understanding your requirements.
-                        </div>
-					    </div>
-				    </div>	
-					<div class="faq-singular">
-					    <h2 class="faq-question" onclick="
-					    	var answer = this.nextElementSibling;
-					    	var allAnswers = document.querySelectorAll('.faq-answer');
-					    	var allQuestions = document.querySelectorAll('.faq-question');
-					    	
-					    	// Check if this one is already open
-					    	var isOpen = answer.style.display === 'block';
-					    	
-					    	// Close all others
-					    	allAnswers.forEach(function(a) { a.style.display = 'none'; });
-					    	allQuestions.forEach(function(q) { q.style.background = ''; });
-					    	
-					    	// If it wasn't open, open it. If it was open, keep it closed
-					    	if (!isOpen) {
-					    		answer.style.display = 'block';
-					    		this.style.background = '';
-					    	}"> Do you offer mobile app development for both Android and iOS?</h2>
-					    <div class="faq-answer">
-					      <div class="desc">
-                            Yes, we develop native apps (Android & iOS), cross-platform apps using frameworks like Flutter and React Native, and progressive web apps (PWAs). We ensure performance, security, and scalability across all platforms.
-                        </div>
-					    </div>
-				    </div>					
-				    <div class="faq-singular">
-					    <h2 class="faq-question" onclick="
-					    	var answer = this.nextElementSibling;
-					    	var allAnswers = document.querySelectorAll('.faq-answer');
-					    	var allQuestions = document.querySelectorAll('.faq-question');
-					    	
-					    	// Check if this one is already open
-					    	var isOpen = answer.style.display === 'block';
-					    	
-					    	// Close all others
-					    	allAnswers.forEach(function(a) { a.style.display = 'none'; });
-					    	allQuestions.forEach(function(q) { q.style.background = ''; });
-					    	
-					    	// If it wasn't open, open it. If it was open, keep it closed
-					    	if (!isOpen) {
-					    		answer.style.display = 'block';
-					    		this.style.background = '';
-					    	}">Can you integrate third-party services into my website or app?</h2>
-					    <div class="faq-answer">
-					      <div class="desc">
-                       Absolutely. Our API Integration & Automation services enable seamless connection of your system with payment gateways, CRMs, ERPs, shipping providers, analytics platforms, and more—helping you save time and improve efficiency.
-                        </div>
-					    </div>
-				    </div>					    
-				    									 						
-				    <div class="faq-singular">
-					    <h2 class="faq-question" onclick="
-					    	var answer = this.nextElementSibling;
-					    	var allAnswers = document.querySelectorAll('.faq-answer');
-					    	var allQuestions = document.querySelectorAll('.faq-question');
-					    	
-					    	// Check if this one is already open
-					    	var isOpen = answer.style.display === 'block';
-					    	
-					    	// Close all others
-					    	allAnswers.forEach(function(a) { a.style.display = 'none'; });
-					    	allQuestions.forEach(function(q) { q.style.background = ''; });
-					    	
-					    	// If it wasn't open, open it. If it was open, keep it closed
-					    	if (!isOpen) {
-					    		answer.style.display = 'block';
-					    		this.style.background = '';
-					    	}">Do you provide e-commerce solutions with payment integration?</h2>
-					    <div class="faq-answer">
-					      <div class="desc">
-                            Yes, we develop scalable e-commerce platforms with secure payment gateways, inventory management, product catalogs, customer dashboards, and advanced analytics. Whether you’re a small business or a large retailer, we tailor solutions to fit your growth needs.
-                        </div>
-					    </div>
-				    </div>					    
-				    									 						
-				    <div class="faq-singular">
-					    <h2 class="faq-question" onclick="
-					    	var answer = this.nextElementSibling;
-					    	var allAnswers = document.querySelectorAll('.faq-answer');
-					    	var allQuestions = document.querySelectorAll('.faq-question');
-					    	
-					    	// Check if this one is already open
-					    	var isOpen = answer.style.display === 'block';
-					    	
-					    	// Close all others
-					    	allAnswers.forEach(function(a) { a.style.display = 'none'; });
-					    	allQuestions.forEach(function(q) { q.style.background = ''; });
-					    	
-					    	// If it wasn't open, open it. If it was open, keep it closed
-					    	if (!isOpen) {
-					    		answer.style.display = 'block';
-					    		this.style.background = '';
-					    	}">How do you ensure the security of my project?</h2>
-					    <div class="faq-answer">
-					      <div class="desc">
-                           Security is at the core of our development process. We implement best practices in encryption, authentication, secure coding, penetration testing, and regular security audits to ensure your platform is fully protected against cyber threats.
-                        </div>
-					    </div>
-				    </div>					    
-				    									 						
-                </div>
-        	</div>
-        	<div class="col-lg-6">
-        		<div class="pricing-right">
-        		    <div class="single-pricing-box">
-        			    <div class="pricing-body">
-        			       <a class="pricing-tag" href="#">Business</a>
-        			       <span class="pricing-text">For 1 Years </span>
-        			       <h4 class="pricing">$39. <span>98</span></h4>
-        			    </div>
-        			    <div class="pricing-content">
-        			    	<div class="pricing-icon">
-        			    		<i class="bi bi-check-square-fill"></i>
-        			    	</div>
-        			    	<div class="pricing-title">
-        			    		<h4>19 Days For Free</h4>
-        			    		<p>Multifunctional human capital after awesome superior scenarios my coordinate</p>
-        			    		<a href="#">Purchaces</a>
-        			    	</div>
-        			    </div>
-        		    </div>        		    
-        		    <div class="single-pricing-box two">
-        			    <div class="pricing-body">
-        			       <a class="pricing-tag" href="#">Popular</a>
-        			       <span class="pricing-text">For 1 Month </span>
-        			       <h4 class="pricing">$49. <span>90</span></h4>
-        			    </div>
-        			    <div class="pricing-content">
-        			    	<div class="pricing-icon">
-        			    		<i class="bi bi-check-square-fill"></i>
-        			    	</div>
-        			    	<div class="pricing-title">
-        			    		<h4>90 Days For Free</h4>
-        			    		<p>Multifunctional human capital after awesome superior scenarios my coordinate</p>
-        			    		<a href="#">Purchaces</a>
-        			    	</div>
-        			    </div>
-        		    </div>
-        		</div>
-        	</div>
-		</div>
-	</div>
-</div>
-
-<!--==================================================-->
-<!-- End Toptech Pricng info Area Style Two-->
-<!--==================================================-->
-
-
-<!--==================================================-->
-<!-- Start Toptech Blog Area Style One-->
-<!--==================================================-->
-<!-- <div class="blog-area style-one home-two">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="section-title center style-two">
-					<h4>Latest Blog</h4>
-					<h1>Latest Inshights From Our Blog</h1>
-			    </div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="single-blog-box">
-					<div class="blog-thumb">
-						<img src="assets/images/home-1/blog1.png" alt="">
-					</div>
-					<div class="blog-content">
-						<div class="blog-meta">
-							<span><i class="bi bi-calendar-check-fill"></i> December 14, 2024</span>
+			<div class="row image_load">
+				<div class="col-lg-4 col-md-6 grid-item technology slide-up-bounce delay-4">
+					<div class="single-portfolio-box">
+						<div class="portfolio-thumb">
+							<img src="assets/images/view-male-engineer-work-engineers-day-celebration.jpg" alt="">
 						</div>
-						<a href="blog-details.html">Most Popular Chrome Extensionfor Business Promot</a>
-					</div>
-					<div class="blog-buttom">
-						<div class="blog-author">
-							<span><i class="bi bi-person-circle"></i>By Admin </span>
-						</div>
-						<div class="blog-button">
-							<a href="blog-grid.html">Read More<i class="bi bi-arrow-right-short"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-blog-box">
-					<div class="blog-thumb">
-						<img src="assets/images/home-1/blog2.png" alt="">
-					</div>
-					<div class="blog-content">
-						<div class="blog-meta">
-							<span><i class="bi bi-calendar-check-fill"></i> December 14, 2024</span>
-						</div>
-						<a href="blog-details.html">How to Secure your facebook Business Account </a>
-					</div>
-					<div class="blog-buttom">
-						<div class="blog-author">
-							<span><i class="bi bi-person-circle"></i>By Admin </span>
-						</div>
-						<div class="blog-button">
-							<a href="blog-grid.html">Read More<i class="bi bi-arrow-right-short"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-4 col-md-6">
-				<div class="single-blog-box">
-					<div class="blog-thumb">
-						<img src="assets/images/home-1/blog3.png" alt="">
-					</div>
-					<div class="blog-content">
-						<div class="blog-meta">
-							<span><i class="bi bi-calendar-check-fill"></i> December 14, 2024</span>
-						</div>
-						<a href="blog-details.html">Better Context Menus With Safe Triangles</a>
-					</div>
-					<div class="blog-buttom">
-						<div class="blog-author">
-							<span><i class="bi bi-person-circle"></i>By Admin </span>
-						</div>
-						<div class="blog-button">
-							<a href="blog-grid.html">Read More<i class="bi bi-arrow-right-short"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div> -->
-<!--==================================================-->
-<!-- End Toptech Blog Area Style One-->
-<!--==================================================-->
-
-
-<!--==================================================-->
-<!-- Start Toptech Brand Area Style Two-->
-<!--==================================================-->
-<!-- <div class="brand-area style-two">
-	<div class="container">
-		<div class="row">
-			<div class="brand-list-1 owl-carousel">
-				<div class="col-lg-12">
-					<div class="single-brand-box">
-						<div class="brand-thumb">
-							<img src="assets/images/home-2/brand-1.png" alt="">
+						<div class="portfolio-content">
+							<div class="portfolio-number">
+								<h1>01</h1>
+							</div>
+							<div class="portfolio-title">
+								<a href="project-details.html">Website-development <i class="bi bi-plus"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>			
-				<div class="col-lg-12">
-					<div class="single-brand-box">
-						<div class="brand-thumb">
-							<img src="assets/images/home-2/brand-2.png" alt="">
+				<div class="col-lg-4 col-md-6 grid-item designing slide-up-bounce delay-5">
+					<div class="single-portfolio-box">
+						<div class="portfolio-thumb">
+							<img src="assets/images/ui-ux-representations-with-laptop.jpg" alt="">
+						</div>
+						<div class="portfolio-content">
+							<div class="portfolio-number">
+								<h1>02</h1>
+							</div>
+							<div class="portfolio-title">
+								<a href="project-details.html">Mobile Application Development <i class="bi bi-plus"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>			
-				<div class="col-lg-12">
-					<div class="single-brand-box">
-						<div class="brand-thumb">
-							<img src="assets/images/home-2/brand-3.png" alt="">
+				<div class="col-lg-4 col-md-6 grid-item bussiness slide-up-bounce delay-6">
+					<div class="single-portfolio-box">
+						<div class="portfolio-thumb">
+							<img src="assets/images/startup-it-engineer-doing-code-testing-quality-assurance.jpg" alt="">
 						</div>
-					</div>
-				</div>			
-				<div class="col-lg-12">
-					<div class="single-brand-box">
-						<div class="brand-thumb">
-							<img src="assets/images/home-2/brand-4.png" alt="">
-						</div>
-					</div>
-				</div>			
-				<div class="col-lg-12">
-					<div class="single-brand-box">
-						<div class="brand-thumb">
-							<img src="assets/images/home-2/brand-5.png" alt="">
+						<div class="portfolio-content">
+							<div class="portfolio-number">
+								<h1>03</h1>
+							</div>
+							<div class="portfolio-title">
+								<a href="project-details.html">API Integrations <i class="bi bi-plus"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div> -->
-<!--==================================================-->
-<!-- End Toptech Brand Area Style Two-->
-<!--==================================================-->
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Footer Area Style One-->
-<!--==================================================-->
-<div class="footer-area style-one">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="footer-logo">
-					<a href="index.html"><img src="assets/images/logo.png" alt="" style="width: 150px; height: 150px; object-fit: contain;"></a>
-				</div>
-				<div class="footer-widget-desc">
-					<p>At MIDCRIB LIMITED, we merge creativity, technology, and strategy to fuel your growth</p>
-				</div>
-				<div class="toptech-button inner-style">
-                    <a href="#">Discover More<i class="bi bi-arrow-right-short"></i></a>
-                </div>
-			</div>
-			<div class="col-lg-2 col-md-6">
-				<div class="footer-widget-content">
-					<div class="footer-widget-title">
-						<h4>Company</h4>
-					</div>
-					<div class="footer-widget-menu">
-						<ul>
-							<li><a href="about-1.html"><i class="bi bi-arrow-right-circle"></i>About</a></li>
-							<li><a href="team.html"><i class="bi bi-arrow-right-circle"></i>Our Team</a></li>
-							<li><a href="pricing.html"><i class="bi bi-arrow-right-circle"></i>Pricing Plan</a></li>
-							<li><a href="blog-grid.html"><i class="bi bi-arrow-right-circle"></i>Latest Blog</a></li>
-							<li><a href="careers.html"><i class="bi bi-arrow-right-circle"></i>Careers</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>			
-			<div class="col-lg-3 col-md-6">
-				<div class="footer-widget-content">
-					<div class="footer-widget-title">
-						<h4>Our Services</h4>
-					</div>
-					<div class="footer-widget-menu">
-						<ul>
-							<li><a href="#"><i class="bi bi-arrow-right-circle"></i>IT Solutions</a></li>
-							<li><a href="#"><i class="bi bi-arrow-right-circle"></i>Cyber Security</a></li>
-							<li><a href="#"><i class="bi bi-arrow-right-circle"></i>Digital Marketing</a></li>
-							<li><a href="#"><i class="bi bi-arrow-right-circle"></i>Brand Identity</a></li>
-							<li><a href="#"><i class="bi bi-arrow-right-circle"></i>SEO Marketing</a></li>
-						</ul>
+	
+	<div class="working-proces-area style-two">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-title center style-two">
+						<h4>Why Choose MIDCRIB</h4>
+						<h1>Your Trusted Digital Partner</h1>
+						<h4>When you work with MIDCRIB, you don't just get developers — you get a dedicated team committed to your success.</h4>
+	
 					</div>
 				</div>
 			</div>
-		    <div class="col-lg-3 col-md-6">
-				<div class="footer-widget-content">
-					<div class="footer-widget-title">
-						<h4>Newsletter</h4>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 fade-in-up delay-1">
+					<div class="working-process-box before-transprent after-transprent">
+						<div class="process-thumb">
+							<img src="assets/images/woman-using-computer-credit-card.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
+							<div class="process-number">
+								<span>01</span>
+							</div>
+						</div>
+						<div class="process-content">
+							<h4>Tailored Solutions</h4>
+							<p>Every product is customized to your unique needs.</p>
+						</div>
 					</div>
-                    <p class="f-desc-2">Subscribe our Latest Newsletter</p>
-                    <form action="#">
-                    	<div class="footer-newslatter-box">
-                    		<input type="text" name="Email" placeholder="Enter Your E-Mail" required>
-                    		<button type="submit">Subscribe</button>
-                    	</div>
-                    </form>
+				</div>			
+				<div class="col-lg-4 col-md-6 fade-in-up delay-2">
+					<div class="working-process-box after-transprent">
+						<div class="process-thumb">
+							<img src="assets/images/data-center-admin-typing-keyboard-maintaining-company-infrastructure.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
+	
+							<div class="process-number two">
+								<span>02</span>
+							</div>
+						</div>
+						<div class="process-content">
+							<h4>Global-Standard Expertise</h4>
+							<p>We use the latest tools and frameworks to ensure quality</p>
+						</div>
+					</div>
+				</div>			
+				<div class="col-lg-4 col-md-6 fade-in-up delay-3">
+					<div class="working-process-box before-transprent">
+						<div class="process-thumb">
+							
+							<img src="assets/images/2150063168.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
+	
+							<div class="process-number">
+								<span>03</span>
+							</div>
+						</div>
+						<div class="process-content">
+							<h4>Transparent Communication</h4>
+							<p>Regular updates and collaboration at every stage.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 fade-in-up delay-1">
+					<div class="working-process-box before-transprent after-transprent">
+						<div class="process-thumb">
+							<img src="assets/images/woman-using-computer-credit-card.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
+							<div class="process-number">
+								<span>04</span>
+							</div>
+						</div>
+						<div class="process-content">
+							<h4>On-Time Delivery:</h4>
+							<p>Projects completed on schedule without compromising quality.</p>
+						</div>
+					</div>
+				</div>			
+				<div class="col-lg-4 col-md-6 fade-in-up delay-2">
+					<div class="working-process-box after-transprent">
+						<div class="process-thumb">
+							<img src="assets/images/data-center-admin-typing-keyboard-maintaining-company-infrastructure.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
+	
+							<div class="process-number two">
+								<span>05</span>
+							</div>
+						</div>
+						<div class="process-content">
+							<h4>Long-Term Support</h4>
+							<p>We stay with you after launch to ensure smooth operations.</p>
+						</div>
+					</div>
+				</div>			
+				<div class="col-lg-4 col-md-6 fade-in-up delay-3">
+					<div class="working-process-box before-transprent">
+						<div class="process-thumb">
+							<!-- <img src="" alt=""> -->
+							<img src="assets/images/2150063168.jpg" alt="" style="width: 200px; height: 200px; border-radius: 50%; padding: 10px;">
+	
+							<div class="process-number">
+								<span>06</span>
+							</div>
+						</div>
+						<div class="process-content">
+							<h4>Cost-Effective Excellence</h4>
+							<p>Premium quality solutions at competitive rates that deliver maximum ROI</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row align-items-center">
-			<div class="footer-bottom-area">
-				<div class="row">
-					<div class="col-lg-6 col-md-6">
-						<div class="footer-bottom-content">
-							<p>© 2024 Toptech. Designed By Dream IT Solution</p>
+	</div>
+	
+	<div class="video-area style-two">
+		<div class="container">
+			<div class="row fade-in-up delay-1">
+				<div class="col-lg-12 text-center">
+					<div class="section-title center style-two" style="flex-direction: column; align-items: center; justify-content: center; display: flex;">
+						<!-- <h4>Watch Now</h4> -->
+						<h1>Ready to Build Your Digital Future?
+	</h1>
+	<p style="max-width: 80%; text-align: center; color: white;" class="">Whether you’re looking for a personal website, a scalable e-commerce store, or an enterprise-grade system, MIDCRIB LIMITED has the expertise to bring your vision to life. Let’s partner to create something extraordinary
+	
+	</p>
+						
+					</div>
+					<div class="hero-button">
+						<a href="contact.html">Get Started<i class="bi bi-arrow-right"></i></a>
+						<a class="button-two" href="about.html">Our Services<i class="bi bi-arrow-right"></i></a>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+	
+	<div class="contact-info-area style-two">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 fade-in-up delay-1">
+					<div class="contact-info-box">
+						<div class="contact-info-icon">
+							<i class="fa-solid fa-phone"></i>
+						</div>
+						<div class="contact-info-content">
+							<h4>Call us Any time</h4>
+							<p>+234 8077 444 866</p>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6">
-						<div class="footer-botton-social-icon">
+				</div>			
+				<div class="col-lg-4 col-md-6 fade-in-up delay-2">
+					<div class="contact-info-box">
+						<div class="contact-info-icon">
+							<i class="fa-regular fa-envelope"></i>
+						</div>
+						<div class="contact-info-content">
+							<h4>Send E-Mail</h4>
+							<p>info@midcribhub.com</p>
+						</div>
+					</div>
+				</div>			
+				<div class="col-lg-4 col-md-6 fade-in-up delay-3">
+					<div class="contact-info-box">
+						<div class="contact-info-icon">
+							<i class="fa-regular fa-clock"></i>
+						</div>
+						<div class="contact-info-content">
+							<h4>Opening Hours</h4>
+							<p>Mon - Fri (8.00 - 5.00)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="pricing-area style-two">
+		<div class="container">
+			<div class="row align-items-center fade-in-up ">
+				<div class="col-lg-6">
+					<div class="section-title left style-two">
+						<h4>Pricing Plan </h4>
+						<h1>Our Best Affordable Pricing Plan</h1>
+						<h1>Choose Your Plans</h1>
+					</div>
+					<div class="faqs-container">
+						<div class="faq-singular">
+							<h2 class="faq-question" onclick="
+								var answer = this.nextElementSibling;
+								var allAnswers = document.querySelectorAll('.faq-answer');
+								var allQuestions = document.querySelectorAll('.faq-question');
+								
+								// Check if this one is already open
+								var isOpen = answer.style.display === 'block';
+								
+								// Close all others
+								allAnswers.forEach(function(a) { a.style.display = 'none'; });
+								allQuestions.forEach(function(q) { q.style.background = ''; });
+								
+								// If it wasn't open, open it. If it was open, keep it closed
+								if (!isOpen) {
+									answer.style.display = 'block';
+									this.style.background = '';
+								}">What makes MIDCRIB different from other IT companies?</h2>
+							<div class="faq-answer">
+							  <div class="desc">
+							   At MIDCRIB, we don’t just build digital products—we craft tailored solutions that align with your business goals. Our approach is client-first, ensuring every project is delivered with innovation, precision, and measurable results. With experience across startups, NGOs, enterprises, and government agencies, we bring both versatility and industry expertise to the table.
+							  </div>
+							</div>
+						</div>					    
+						<div class="faq-singular">
+							<h2 class="faq-question" onclick="
+								var answer = this.nextElementSibling;
+								var allAnswers = document.querySelectorAll('.faq-answer');
+								var allQuestions = document.querySelectorAll('.faq-question');
+								
+								// Check if this one is already open
+								var isOpen = answer.style.display === 'block';
+								
+								// Close all others
+								allAnswers.forEach(function(a) { a.style.display = 'none'; });
+								allQuestions.forEach(function(q) { q.style.background = ''; });
+								
+								// If it wasn't open, open it. If it was open, keep it closed
+								if (!isOpen) {
+									answer.style.display = 'block';
+									this.style.background = '';
+								}"> How long does it take to develop a custom website?</h2>
+							<div class="faq-answer">
+							  <div class="desc">
+								The timeline depends on the complexity of the project. A simple business website may take 2–4 weeks, while a complex enterprise-level platform may require 8–12 weeks or more. We always provide a detailed project timeline after understanding your requirements.
+							</div>
+							</div>
+						</div>	
+						<div class="faq-singular">
+							<h2 class="faq-question" onclick="
+								var answer = this.nextElementSibling;
+								var allAnswers = document.querySelectorAll('.faq-answer');
+								var allQuestions = document.querySelectorAll('.faq-question');
+								
+								// Check if this one is already open
+								var isOpen = answer.style.display === 'block';
+								
+								// Close all others
+								allAnswers.forEach(function(a) { a.style.display = 'none'; });
+								allQuestions.forEach(function(q) { q.style.background = ''; });
+								
+								// If it wasn't open, open it. If it was open, keep it closed
+								if (!isOpen) {
+									answer.style.display = 'block';
+									this.style.background = '';
+								}"> Do you offer mobile app development for both Android and iOS?</h2>
+							<div class="faq-answer">
+							  <div class="desc">
+								Yes, we develop native apps (Android & iOS), cross-platform apps using frameworks like Flutter and React Native, and progressive web apps (PWAs). We ensure performance, security, and scalability across all platforms.
+							</div>
+							</div>
+						</div>					
+						<div class="faq-singular">
+							<h2 class="faq-question" onclick="
+								var answer = this.nextElementSibling;
+								var allAnswers = document.querySelectorAll('.faq-answer');
+								var allQuestions = document.querySelectorAll('.faq-question');
+								
+								// Check if this one is already open
+								var isOpen = answer.style.display === 'block';
+								
+								// Close all others
+								allAnswers.forEach(function(a) { a.style.display = 'none'; });
+								allQuestions.forEach(function(q) { q.style.background = ''; });
+								
+								// If it wasn't open, open it. If it was open, keep it closed
+								if (!isOpen) {
+									answer.style.display = 'block';
+									this.style.background = '';
+								}">Can you integrate third-party services into my website or app?</h2>
+							<div class="faq-answer">
+							  <div class="desc">
+						   Absolutely. Our API Integration & Automation services enable seamless connection of your system with payment gateways, CRMs, ERPs, shipping providers, analytics platforms, and more—helping you save time and improve efficiency.
+							</div>
+							</div>
+						</div>					    
+																					 
+						<div class="faq-singular">
+							<h2 class="faq-question" onclick="
+								var answer = this.nextElementSibling;
+								var allAnswers = document.querySelectorAll('.faq-answer');
+								var allQuestions = document.querySelectorAll('.faq-question');
+								
+								// Check if this one is already open
+								var isOpen = answer.style.display === 'block';
+								
+								// Close all others
+								allAnswers.forEach(function(a) { a.style.display = 'none'; });
+								allQuestions.forEach(function(q) { q.style.background = ''; });
+								
+								// If it wasn't open, open it. If it was open, keep it closed
+								if (!isOpen) {
+									answer.style.display = 'block';
+									this.style.background = '';
+								}">Do you provide e-commerce solutions with payment integration?</h2>
+							<div class="faq-answer">
+							  <div class="desc">
+								Yes, we develop scalable e-commerce platforms with secure payment gateways, inventory management, product catalogs, customer dashboards, and advanced analytics. Whether you’re a small business or a large retailer, we tailor solutions to fit your growth needs.
+							</div>
+							</div>
+						</div>					    
+																					 
+						<div class="faq-singular">
+							<h2 class="faq-question" onclick="
+								var answer = this.nextElementSibling;
+								var allAnswers = document.querySelectorAll('.faq-answer');
+								var allQuestions = document.querySelectorAll('.faq-question');
+								
+								// Check if this one is already open
+								var isOpen = answer.style.display === 'block';
+								
+								// Close all others
+								allAnswers.forEach(function(a) { a.style.display = 'none'; });
+								allQuestions.forEach(function(q) { q.style.background = ''; });
+								
+								// If it wasn't open, open it. If it was open, keep it closed
+								if (!isOpen) {
+									answer.style.display = 'block';
+									this.style.background = '';
+								}">How do you ensure the security of my project?</h2>
+							<div class="faq-answer">
+							  <div class="desc">
+							   Security is at the core of our development process. We implement best practices in encryption, authentication, secure coding, penetration testing, and regular security audits to ensure your platform is fully protected against cyber threats.
+							</div>
+							</div>
+						</div>					    
+																					 
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="pricing-right">
+						<div class="single-pricing-box">
+							<div class="pricing-body">
+							   <a class="pricing-tag" href="#">Fixed-price Package</a>
+							   <span class="pricing-text">Our pricing is flexible and transparent. We offer: </span>
+							   <!-- <h4 class="pricing">$39. <span>98</span></h4> -->
+							</div>
+							<div class="pricing-content">
+								<div class="pricing-icon">
+									<i class="bi bi-check-square-fill"></i>
+								</div>
+								<div class="pricing-title">
+									<!-- <h4>19 Days For Free</h4> -->
+									<p>Fixed-price packages for smaller, well-defined projects.</p>
+									<a href="#">Purchaces</a>
+								</div>
+							</div>
+						</div>        		    
+						<div class="single-pricing-box two">
+							<div class="pricing-body">
+							   <a class="pricing-tag" href="#">Custom quotes Package</a>
+							   <span class="pricing-text">we’ll provide a clear breakdown of costs before starting any project.
+	 </span>
+							   <!-- <h4 class="pricing">$49. <span>90</span></h4> -->
+							</div>
+							<div class="pricing-content">
+								<div class="pricing-icon">
+									<i class="bi bi-check-square-fill"></i>
+								</div>
+								<div class="pricing-title">
+									<!-- <h4>90 Days For Free</h4> -->
+									<p>	Custom quotes for large or complex solutions.
+	</p>
+									<a href="#">Purchaces</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="footer-area style-one">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-logo">
+						<a href="index.html"><img src="assets/images/logo.png" alt="" style="width: 150px; height: 150px; object-fit: contain;"></a>
+					</div>
+					<div class="footer-widget-desc">
+						<p>At MIDCRIB LIMITED, we merge creativity, technology, and strategy to fuel your growth</p>
+					</div>
+					<div class="toptech-button inner-style">
+						<a href="#">Discover More<i class="bi bi-arrow-right-short"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6">
+					<div class="footer-widget-content">
+						<div class="footer-widget-title">
+							<h4>Company</h4>
+						</div>
+						<div class="footer-widget-menu">
 							<ul>
-								<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+								<li><a href="about.html"><i class="bi bi-arrow-right-circle"></i>About</a></li>
+								<li><a href="service.html"><i class="bi bi-arrow-right-circle"></i>Our Services</a></li>
+								<li><a href="portfolio.html"><i class="bi bi-arrow-right-circle"></i>Portfolio</a></li>
+								<li><a href="contact.html"><i class="bi bi-arrow-right-circle"></i>Contact Us</a></li>
+	
+							</ul>
+						</div>
+					</div>
+				</div>			
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-widget-content">
+						<div class="footer-widget-title">
+							<h4>Our Services</h4>
+						</div>
+						<div class="footer-widget-menu">
+							<ul>
+								<li><a href="#"><i class="bi bi-arrow-right-circle"></i>IT Solutions</a></li>
+								<li><a href="#"><i class="bi bi-arrow-right-circle"></i>Mobile App Development</a></li>
+								<li><a href="#"><i class="bi bi-arrow-right-circle"></i>E-commerce Solutions</a></li>
+								<li><a href="#"><i class="bi bi-arrow-right-circle"></i>Enterprise Software Development</a></li>
+								<li><a href="#"><i class="bi bi-arrow-right-circle"></i>API Integration & Automation</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-widget-content">
+						<div class="footer-widget-title">
+							<h4>Newsletter</h4>
+						</div>
+						<p class="f-desc-2">Subscribe our Latest Newsletter</p>
+						<form action="#">
+							<div class="footer-newslatter-box">
+								<input type="text" name="Email" placeholder="Enter Your E-Mail" required>
+								<button type="submit">Subscribe</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="footer-bottom-area">
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<div class="footer-bottom-content">
+								<p>© 2025 midcrib. </p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="footer-botton-social-icon">
+								<ul>
+									<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+	
+	
+	
+	
+	
+	<div class="search-popup">
+		<button class="close-search style-two"><span class="flaticon-multiply"><i class="far fa-times-circle"></i></span></button>
+		<button class="close-search"><i class="bi bi-arrow-up"></i></button>
+		<form method="post" action="#">
+			<div class="form-group">
+				<input type="search" name="search-field" value="" placeholder="Search Here" required="">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</div>
+		</form>
+	</div>
 </div>
-<!--==================================================-->
-<!-- End Toptech Footer Area Style One-->
-<!--==================================================-->
 
-
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Search-->
-<!--==================================================-->
-<div class="search-popup">
-	<button class="close-search style-two"><span class="flaticon-multiply"><i class="far fa-times-circle"></i></span></button>
-	<button class="close-search"><i class="bi bi-arrow-up"></i></button>
-	<form method="post" action="#">
-		<div class="form-group">
-			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
-			<button type="submit"><i class="fa fa-search"></i></button>
-		</div>
-	</form>
-</div>
-<!--==================================================-->
-<!-- End Toptech Search-->
-<!--==================================================-->
-
-
-
-
-<!--==================================================-->
-<!-- Start Toptech Scroll Up-->
-<!--==================================================-->
 <div class="prgoress_indicator active-progress">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 212.78;"></path>
-        </svg>
+		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+		  <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 212.78;"></path>
+		</svg>
  </div>
-<!--==================================================-->
-<!-- End Toptech Scroll Up-->
-<!--==================================================-->
- <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const filterButtons = document.querySelectorAll('.menu-filtering li');
-            const portfolioItems = document.querySelectorAll('.grid-item');
 
-            filterButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    // Remove active class from all buttons
-                    filterButtons.forEach(btn => btn.classList.remove('current_menu_item'));
-                    
-                    // Add active class to clicked button
-                    this.classList.add('current_menu_item');
-                    
-                    // Get the filter value
-                    const filterValue = this.getAttribute('data-filter');
-                    
-                    // Filter portfolio items
-                    portfolioItems.forEach(item => {
-                        if (filterValue === '*') {
-                            // Show all items
-                            item.classList.remove('hidden');
-                        } else {
-                            // Check if item has the filter class
-                            if (item.classList.contains(filterValue.substring(1))) {
-                                item.classList.remove('hidden');
-                            } else {
-                                item.classList.add('hidden');
-                            }
-                        }
-                    });
-                });
-            });
-        });
-    </script>
+ <script>
+		document.addEventListener('DOMContentLoaded', function() {
+			const filterButtons = document.querySelectorAll('.menu-filtering li');
+			const portfolioItems = document.querySelectorAll('.grid-item');
+
+			filterButtons.forEach(button => {
+				button.addEventListener('click', function() {
+					// Remove active class from all buttons
+					filterButtons.forEach(btn => btn.classList.remove('current_menu_item'));
+					
+					// Add active class to clicked button
+					this.classList.add('current_menu_item');
+					
+					// Get the filter value
+					const filterValue = this.getAttribute('data-filter');
+					
+					// Filter portfolio items
+					portfolioItems.forEach(item => {
+						if (filterValue === '*') {
+							// Show all items
+							item.classList.remove('hidden');
+						} else {
+							// Check if item has the filter class
+							if (item.classList.contains(filterValue.substring(1))) {
+								item.classList.remove('hidden');
+							} else {
+								item.classList.add('hidden');
+							}
+						}
+					});
+				});
+			});
+		});
+	</script>
 	<!-- jquery js -->
 	<script src="assets/js/vendor/jquery-3.6.2.min.js"></script>
 	<!-- bootstrap js -->
@@ -1690,7 +1234,83 @@
 	<!-- Cousom carousel js -->
 	<script src="assets/js/coustom-carousel.js"></script>
 	<script src="assets/js/scroll-up.js"></script>
-    
+	<script src="assets/js/loading.js"></script>
+	
+<script>
+// Intersection Observer for scroll animations
+const observerOptions = {
+	threshold: 0.1,
+	rootMargin: '0px 0px -50px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach(entry => {
+		if (entry.isIntersecting) {
+			entry.target.classList.add('animate');
+			
+			// Trigger counter animation if element has counter (existing logic)
+			const counter = entry.target.querySelector('.counter[data-count]');
+			if (counter && !counter.classList.contains('counted')) {
+				counter.classList.add('counted');
+				animateCounter(counter);
+			}
+			
+			// Trigger counter animation for counterup elements (new logic)
+			const counterElement = entry.target.querySelector('.counterup[data-count]');
+			if (counterElement && !counterElement.classList.contains('counted')) {
+				counterElement.classList.add('counted');
+				animateCounterUp(counterElement);
+			}
+		}
+	});
+}, observerOptions);
+
+// Original counter animation function
+function animateCounter(element) {
+	const target = parseInt(element.getAttribute('data-count'));
+	const increment = target / 50;
+	let current = 0;
+	
+	const timer = setInterval(() => {
+		current += increment;
+		if (current >= target) {
+			current = target;
+			clearInterval(timer);
+		}
+		
+		if (element.textContent.includes('%')) {
+			element.textContent = Math.floor(current) + '%';
+		} else {
+			element.textContent = Math.floor(current) + '+';
+		}
+	}, 30);
+}
+
+// Enhanced counter animation function for counterup
+function animateCounterUp(element) {
+	const target = parseInt(element.getAttribute('data-count'));
+	const duration = 2000; // 2 seconds
+	const increment = target / (duration / 16); // 60fps
+	let current = 0;
+	
+	const timer = setInterval(() => {
+		current += increment;
+		if (current >= target) {
+			current = target;
+			clearInterval(timer);
+			// Add pulse effect when animation completes
+			element.style.animation = 'pulse-glow 2s ease-in-out infinite';
+		}
+		element.textContent = Math.floor(current);
+	}, 16);
+}
+
+// Observe all elements with animation classes
+document.addEventListener('DOMContentLoaded', () => {
+	const animatedElements = document.querySelectorAll('.fade-in-up, .fade-in-left, .fade-in-right, .fade-in, .fade-in-scale, .slide-in-left, .slide-in-right, .zoom-in, .rotate-fade-in, .fade-in-down, .slide-up-bounce, .counter-slide-up, .text-fade-in');
+	animatedElements.forEach(el => observer.observe(el));
+});
+</script>
 
 </body>
 </html>

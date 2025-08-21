@@ -1,9 +1,7 @@
-
-<!DOCTYPE HTML>
-<html lang="en-US">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<!-- Basic Meta Tags -->
+   	<!-- Basic Meta Tags -->
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +21,7 @@
 	<meta property="og:url" content="https://www.midcriblimited.com/">
 	<meta property="og:title" content="MIDCRIB LIMITED - Innovative IT Solutions & Custom Web Development">
 	<meta property="og:description" content="Expert IT solutions company delivering custom websites, enterprise applications, and digital transformation services for individuals, startups, and organizations.">
-	<meta property="og:image" content="https://www.midcriblimited.com/assets/images/og-image.jpg">
+	<meta property="og:image" content="https://www.midcriblimited.com/assets/images/logo.png">
 	<meta property="og:image:width" content="1200">
 	<meta property="og:image:height" content="630">
 	<meta property="og:site_name" content="MIDCRIB LIMITED">
@@ -34,7 +32,7 @@
 	<meta name="twitter:url" content="https://www.midcriblimited.com/">
 	<meta name="twitter:title" content="MIDCRIB LIMITED - Innovative IT Solutions & Web Development">
 	<meta name="twitter:description" content="Expert IT solutions company delivering custom websites, enterprise applications, and digital transformation services.">
-	<meta name="twitter:image" content="https://www.midcriblimited.com/assets/images/twitter-card.jpg">
+	<meta name="twitter:image" content="https://www.midcriblimited.com/assets/images/logo.png">
 	<meta name="twitter:creator" content="@midcriblimited">
 	
 	<!-- Canonical URL -->
@@ -104,6 +102,7 @@
 	
 	<!-- Non-critical CSS loaded asynchronously -->
 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="assets/css/loading.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/css/bootstraps.css" type="text/css" media="all">
 	<link rel="stylesheet" href="assets/css/animated-text.css" type="text/css" media="all">
@@ -129,9 +128,59 @@
 	
 	<!-- JavaScript -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    
+    
 </head>
-
 <body>
+    <!-- Loading Overlay -->
+ <div id="quantumLoadingOverlay">
+        <div class="quantum-cosmic-bg"></div>
+        
+       
+        <div class="quantum-shape quantum-cube"></div>
+        <div class="quantum-shape quantum-triangle"></div>
+        <div class="quantum-shape quantum-circle"></div>
+        <div class="quantum-shape quantum-cube"></div>
+        <div class="quantum-shape quantum-triangle"></div>
+
+        <div class="quantum-loading-container">
+            <div class="quantum-loading-card">
+             
+                <div class="quantum-spinner">
+                    <div class="quantum-spinner-ring quantum-ring-1"></div>
+                    <div class="quantum-spinner-ring quantum-ring-2"></div>
+                    <div class="quantum-spinner-ring quantum-ring-3"></div>
+                    <div class="quantum-core"></div>
+                </div>
+                
+              
+                <div class="quantum-loading-text">LOADING</div>
+                
+                
+                <div class="quantum-dots">
+                    <div class="quantum-dot"></div>
+                    <div class="quantum-dot"></div>
+                    <div class="quantum-dot"></div>
+                </div>
+                
+              
+                <div class="quantum-progress-container">
+                    <div class="quantum-progress-bar" id="quantumProgressBar"></div>
+                </div>
+                
+              
+                <div class="quantum-percentage" id="quantumPercentage">0%</div>
+                
+             
+                <div class="quantum-status-text" id="quantumStatusText">Innovative IT Solutions...</div>
+            </div>
+        </div>
+    </div>
+
+ 
+    <!-- <div class="" > -->
+    <div class="main-content" >
+        
 
 	<!-- loder -->
 	<!-- <div class="loader-wrapper">
@@ -255,13 +304,13 @@
                 </div>
                 <div class="hero-button fade-in-up delay-3">
                     <a href="contact.html">Get Started<i class="bi bi-arrow-right"></i></a>
-                    <a class="button-two" href="about.html">Our Services<i class="bi bi-arrow-right"></i></a>
+                    <a class="button-two" href="service.html">Our Services<i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="hero-right">
                     <div class="hero-thumb fade-in-right delay-4">
-                        <img src="assets/images/home-2/hero-thumb.png" alt="">
+                        <img src="assets/images/hero-thumb.png" alt="">
                     </div>
                     <div class="hero-shape fade-in-right delay-5">
                         <img src="assets/images/hero-shape.png" alt="">
@@ -309,7 +358,7 @@
                     <div class="feature-content">
                         <h4>End-to-End</h4>
                         <p>Support & Maintenance throughout project lifecycle</p>
-                        <a href="service.html">Read More</a>
+                        <a href="service.html" >Read More</a>
                     </div>
                 </div>
             </div>
@@ -604,7 +653,7 @@
 							<h1>01</h1>
 						</div>
 						<div class="portfolio-title">
-							<a href="project-details.html">Website-development <i class="bi bi-plus"></i></a>
+							<a href="service.html">Website-development <i class="bi bi-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -619,7 +668,7 @@
 							<h1>02</h1>
 						</div>
 						<div class="portfolio-title">
-							<a href="project-details.html">Mobile Application Development <i class="bi bi-plus"></i></a>
+							<a href="service.html">Mobile Application Development <i class="bi bi-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -634,7 +683,7 @@
 							<h1>03</h1>
 						</div>
 						<div class="portfolio-title">
-							<a href="project-details.html">API Integrations <i class="bi bi-plus"></i></a>
+							<a href="service.html">API Integrations <i class="bi bi-plus"></i></a>
 						</div>
 					</div>
 				</div>
@@ -767,7 +816,7 @@
 				</div>
                 <div class="hero-button">
 					<a href="contact.html">Get Started<i class="bi bi-arrow-right"></i></a>
-					<a class="button-two" href="about.html">Our Services<i class="bi bi-arrow-right"></i></a>
+					<a class="button-two" href="service.html">Our Services<i class="bi bi-arrow-right"></i></a>
 				</div>
 			</div>
 		
@@ -778,19 +827,22 @@
 <div class="contact-info-area style-two">
 	<div class="container">
 		<div class="row">
+			<!-- Call Us -->
 			<div class="col-lg-4 col-md-6 fade-in-up delay-1">
-				<div class="contact-info-box">
+				<a href="tel:+2348077444866" class="contact-info-box" style="text-decoration:none; color:inherit;">
 					<div class="contact-info-icon">
 						<i class="fa-solid fa-phone"></i>
 					</div>
 					<div class="contact-info-content">
-						<h4>Call us Any time</h4>
+						<h4>Book a Call</h4>
 						<p>+234 8077 444 866</p>
 					</div>
-				</div>
-			</div>			
+				</a>
+			</div>
+
+			<!-- Send Email -->
 			<div class="col-lg-4 col-md-6 fade-in-up delay-2">
-				<div class="contact-info-box">
+				<a href="mailto:info@midcribhub.com" class="contact-info-box" style="text-decoration:none; color:inherit;">
 					<div class="contact-info-icon">
 						<i class="fa-regular fa-envelope"></i>
 					</div>
@@ -798,22 +850,25 @@
 						<h4>Send E-Mail</h4>
 						<p>info@midcribhub.com</p>
 					</div>
-				</div>
-			</div>			
+				</a>
+			</div>
+
+			<!-- Opening Hours / Calendly -->
 			<div class="col-lg-4 col-md-6 fade-in-up delay-3">
-				<div class="contact-info-box">
+				<a href="https://calendly.com/YOUR-CALENDLY-LINK" target="_blank" class="contact-info-box" style="text-decoration:none; color:inherit;">
 					<div class="contact-info-icon">
 						<i class="fa-regular fa-clock"></i>
 					</div>
 					<div class="contact-info-content">
-						<h4>Opening Hours</h4>
-						<p>Mon - Fri (8.00 - 5.00)</p>
+						<h4>Open 24hrs</h4>
+						<p>Book a Session</p>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>
 </div>
+
 
 <div class="pricing-area style-two">
 	<div class="container">
@@ -996,7 +1051,7 @@
         		    <div class="single-pricing-box two">
         			    <div class="pricing-body">
         			       <a class="pricing-tag" href="#">Custom quotes Package</a>
-        			       <span class="pricing-text">e’ll provide a clear breakdown of costs before starting any project.
+        			       <span class="pricing-text">we’ll provide a clear breakdown of costs before starting any project.
  </span>
         			       <!-- <h4 class="pricing">$49. <span>90</span></h4> -->
         			    </div>
@@ -1120,13 +1175,16 @@
 	</form>
 </div>
 
+
+
+
+</div>
 <div class="prgoress_indicator active-progress">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
           <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 212.78;"></path>
         </svg>
  </div>
-
- <script>
+<script>
         document.addEventListener('DOMContentLoaded', function() {
             const filterButtons = document.querySelectorAll('.menu-filtering li');
             const portfolioItems = document.querySelectorAll('.grid-item');
@@ -1188,6 +1246,7 @@
 	<!-- Cousom carousel js -->
 	<script src="assets/js/coustom-carousel.js"></script>
 	<script src="assets/js/scroll-up.js"></script>
+	<script src="assets/js/loading.js"></script>
     
 <script>
 // Intersection Observer for scroll animations
@@ -1265,5 +1324,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
+    
+
+    <!-- Your existing JavaScript goes here -->
 </body>
 </html>
